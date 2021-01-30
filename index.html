@@ -15,7 +15,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>    
     </div>
 
-<!-- Modal -->
+<!--------------------------------- Modal --------------------------------------->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -30,6 +30,7 @@
     </div>
   </div>
 </div>
+<!--------------------------------- Navbar --------------------------------------->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
         <a class="navbar-brand brand-name" href="#">Design Smile</a>
             <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,15 +39,17 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-item nav-link" href="#our-services">Our Services</a>
-            <a class="nav-item nav-link" href="#">Meet Linda</a>
+            <a class="nav-item nav-link" href="#about-me">Meet Linda</a>
             <a class="nav-item nav-link" href="#">New Partient</a>
-            <a class="nav-item nav-link" href="#">The Clinic</a>
+            <a class="nav-item nav-link" href="#clinic">The Clinic</a>
             <a class="nav-item nav-link" href="#">Contact Us</a>
           </div>
+<!--------------------------------- Call Us BTN--------------------------------------->
             <button class="btn btn-sm btn-outline-secondary nav-button" type="button"><a id="call-us" href="tel:+46723877855">Call Us</a></button> 
         </div>
     </nav>
 <main>
+<!--------------------------------- Landing Page --------------------------------------->
     <section class="landing-page">
         <div class="container-fluid">
             <div class="row">
@@ -60,6 +63,7 @@
             </div>
          </div>
     </section>
+<!--------------------------------- Service --------------------------------------->
     <section id="our-services">
         <div class="container">
             <h2>Our Services</h2>
@@ -97,60 +101,71 @@
         </div>
         </div>   
     </section>
-    <section>
-        <div class="container-fluid">
-        <div class="row">
-            <div class="back-box">
-                <div class="col-12 col-lg-6">
+<!--------------------------------- About Me & New Patients--------------------------------------->
+    <section id="about-me">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 front-box">
                     <div class="headshot-card">
-                <img src="..." class="card-img-top" alt="...">
+                        <img src="assets/image/girl-image.png" class="rounded-circle mr-3" alt="...">
                     </div>
-                    <h3>Linda Hagstam Harrison</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex minima, id architecto quod laudantium animi numquam ipsa delectus sint magni cumque dignissimos placeat doloribus deserunt vero saepe ad dolore sit et eum reiciendis. Reiciendis, ullam fugiat? Commodi natus nostrum, ex esse officiis mollitia? Nisi quod quis, sapiente in, quae, eius esse repellendus autem vel facere atque. Ut explicabo consequuntur cum?</p>
+                        <h3>Linda Hagstam Harrison</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex minima, id architecto quod laudantium animi numquam ipsa delectus sint magni cumque dignissimos placeat doloribus deserunt vero saepe ad dolore sit et eum reiciendis. Reiciendis, ullam fugiat? Commodi natus nostrum, ex esse officiis mollitia? Nisi quod quis, sapiente in, quae, eius esse repellendus autem vel facere atque. Ut explicabo consequuntur cum?</p>
                 </div>
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-12 col-lg-6">
-                <h3>New Patient</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex minima, id architecto quod laudantium animi numquam ipsa delectus sint magni cumque dignissimos placeat doloribus deserunt vero saepe ad dolore sit et eum reiciendis. Reiciendis, ullam fugiat? Commodi natus nostrum, ex esse officiis mollitia? Nisi quod quis, sapiente in, quae, eius esse repellendus autem vel facere atque. Ut explicabo consequuntur cum?</p>
-                    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#newpatient">Dark</button>
+                <div class="col-12 col-lg-4 patient-card">
+                    <h3>New Patient</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex minima, id architecto quod laudantium animi numquam ipsa delectus sint magni cumque dignissimos placeat doloribus deserunt vero saepe ad dolore sit et eum reiciendis. Reiciendis, ullam fugiat? Commodi natus nostrum, ex esse officiis mollitia? Nisi quod quis, sapiente in, quae, eius esse repellendus autem vel facere atque. Ut explicabo consequuntur cum?</p>
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#newpatient">Dark</button>
+                </div>
             </div>
         </div>
         <!-- Modal -->
-<div class="modal fade" id="newpatient" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="newpatientLabel">New Patients</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-        
-    </div>
+        <div class="modal fade" id="newpatient" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="newpatientLabel">New Patients</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+            </div>
+        </div>
+        </div>
     </section>
-    <section>
+<!--------------------------------- Clinic--------------------------------------->
+    <section id="clinic">
         <div class="container-fluid">
+            <div>
+                <h2>The Clinic</h2>
+            </div>
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="assets/image/Hagstam Clinic 1.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="assets/image/Hagstam Clinic 2.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="assets/image/Hagstam Clinic 3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="assets/image/Hagstam Clinic 4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="assets/image/Hagstam Clinic 5.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="assets/image/Hagstam Clinic 6.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="assets/image/Hagstam Clinic 7.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
