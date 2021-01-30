@@ -12,10 +12,53 @@
     text-align: center;
 }
 
+.brand-name {
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    padding-left: 0.75em;
+    text-transform: uppercase;
+}
+
+.nav-button {
+    margin: 0 0.75em;
+}
+
+#call-us {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 .hero-img {
     background: url('../image/istockphoto-977601820-170667a.jpg') no-repeat bottom center;
     background-size: cover;
     height: 75vh;
     overflow: hidden;
-    
+}
+
+.welcome-msg {
+    width: 80%;
+    text-align: center;
+    margin-top: 15vh;
+    background-color: rgba(215, 238, 238, 0.4);
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.welcome-msg h1 {
+    font-size: 2.5rem;
+}
+
+.welcome-msg h3 {
+    margin-bottom: 20px;
+}
+
+.card-group {
+    margin-top: 1.5em;
+}
+
+.card img {
+    width: 80%;
+    margin: 0 auto;  
 }
