@@ -54,11 +54,18 @@
     margin-bottom: 20px;
 }
 
-.card-group {
-    margin-top: 1.5em;
+#our-services h2 {
+    text-align: center;
+    padding: 1em;
+}
+
+.card {
+    text-align: center;
 }
 
 .card img {
     width: 80%;
-    margin: 0 auto;  
+    margin: 0 auto; 
+    border-radius: 20px; 
+    margin-top: 15px;
 }
