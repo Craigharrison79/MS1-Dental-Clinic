@@ -40,9 +40,9 @@
           <div class="navbar-nav">
             <a class="nav-item nav-link" href="#our-services">Our Services</a>
             <a class="nav-item nav-link" href="#about-me">Meet Linda</a>
-            <a class="nav-item nav-link" href="#">New Partient</a>
+            <a class="nav-item nav-link" href="#patient">New Partient</a>
             <a class="nav-item nav-link" href="#clinic">The Clinic</a>
-            <a class="nav-item nav-link" href="#">Contact Us</a>
+            <a class="nav-item nav-link" href="#contact">Contact Us</a>
           </div>
 <!--------------------------------- Call Us BTN--------------------------------------->
             <button class="btn btn-sm btn-outline-secondary nav-button" type="button"><a id="call-us" href="tel:+46723877855">Call Us</a></button> 
@@ -112,7 +112,7 @@
                         <h3>Linda Hagstam Harrison</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex minima, id architecto quod laudantium animi numquam ipsa delectus sint magni cumque dignissimos placeat doloribus deserunt vero saepe ad dolore sit et eum reiciendis. Reiciendis, ullam fugiat? Commodi natus nostrum, ex esse officiis mollitia? Nisi quod quis, sapiente in, quae, eius esse repellendus autem vel facere atque. Ut explicabo consequuntur cum?</p>
                 </div>
-                <div class="col-12 col-lg-4 patient-card">
+                <div class="col-12 col-lg-4 patient-card" id="patient">
                     <h3>New Patient</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex minima, id architecto quod laudantium animi numquam ipsa delectus sint magni cumque dignissimos placeat doloribus deserunt vero saepe ad dolore sit et eum reiciendis. Reiciendis, ullam fugiat? Commodi natus nostrum, ex esse officiis mollitia? Nisi quod quis, sapiente in, quae, eius esse repellendus autem vel facere atque. Ut explicabo consequuntur cum?</p>
                         <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#newpatient">Dark</button>
@@ -179,30 +179,49 @@
         </div>
         </div>
     </section>
-    <section>
+    <!--------------------------------- Contact & Opening--------------------------------------->
+    <section id="contact">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row g-3">
                 <div class="col-12 col-lg-6">
-                    <form>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="fname" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="fname" placeholder="First Name" aria-label="Frist name">
                         </div>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        <div class="col-md-6">
+                            <label for="lname" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lname" placeholder="Last Name" aria-label="Last name">
                         </div>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        <div class="col-12">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email" aria-label="Email">
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <div class="col-md-6">
+                            <label for="telephone" class="form-label">Telephone we can contact you on</label>
+                            <input type="tel" class="form-control" id="telephone" placeholder="Telephone Number" aria-label="Telephone number">
+                        </div>
+                        <div class="col-md-6 form-group">
+                        <label for="reason" class="form-label">What subject matter?</label>
+                        <select class="form-control" id="reason" aria-label="mutiple select">
+                            <option></option>
+                            <option>Rebooking</option>
+                            <option>Canceling</option>
+                            <option>Emergyery</option>
+                            <option>Remember on your appointment time</option>
+                            <option>Other</option>
+                        </select>
+                        </div>
+                        <div class="col-12">
+                            <label for="message" class="form-label">How may we help you?</label>
+                            <textarea class="form-control" id="message" aria-label="message on how we can help you?" rows="6" data-name="Message" required></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Sign in</button>
+                        </div>
                     </form>    
                 
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-12 col-lg-6">
                     <h4>Opening Times</h4>
                     <p>MONDAY: 7 AM - 6.30 PM <br>
@@ -213,7 +232,7 @@
                     <h4>Telephone</h4>
                     <p>0733 44 55 66</p>
                 </div>
-            </div>
+            
         </div>
     </section>
     <section>
