@@ -31,7 +31,7 @@
     </div>
 </div>
 <!--------------------------------- Navbar --------------------------------------->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-md bg-dark sticky-top navbar-colors">
         <a class="navbar-brand brand-name" href="#">Design Smile</a>
             <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -185,7 +185,7 @@
         <div class="container-fluid">
             <div class="row g-3">
                 <div class="col-12 col-lg-6">
-                    <form class="row g-3">
+                    <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/">
                         <div class="text-center">
                             <h3>Contact Us</h3>
                         </div>
@@ -247,38 +247,68 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-3">
-                    <div>
+                    <div class="text-center">
                         <h4>Address</h4>
-                        <p>Oral Care <br>
-                        Gustav Adolfs torg 45 <br>
-                        211 39 Malmö
-                        </p>
+                        <h5><i class="fas fa-map-marker-alt"></i>
+                            <br> Oral Care, <br> Gustav Adolfs torg 45, <br> 211 39, Malmö</h5>
                     </div>
                 </div>
             
             <!----------- Use https://www.maps.ie/create-google-map/ to add the map -------------------->
                 
                 <div class="col-12 col-lg-9">
-                    <div>
-                        <iframe class="googlemaps" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=Gustav%20Adolfs%20torg%2045+(Hagstam%20Dental%20Clinic)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                    <div style="width: 100%">
+                        <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Gustav%20Adolfs%20torg%2045+(Oral%20Care)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                     </div>
+                    
                 </div>    
             </div>
         </div>
     </section>
 </main>
-<footer>
-    <div class="container-fluid">
-        <div class="row bg-dark">
-            <div class="col-12 col-lg-9">
-                <h5>Copyright by HHDC</h5>  
-            </div> 
-            <div class="col-12 col-lg-9">
-                <h5>Social</h5>  
-            </div>    
+<footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <!--Social Links-->
+                <div class="link-buffer">
+                    <div class="social-media-links">
+                        <div class="wrapper">
+                            <div class="button">
+                                <div class="icon"><i class="fab fa-facebook-f"></i></div>
+                                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                            </div>
+                            <div class="button">
+                                <div class="icon"><i class="fab fa-twitter"></i></div>
+                                <a href="https://twitter.com/" target="_blank">Twitter</a>
+                            </div>
+                            <div class="button">
+                                <div class="icon"><i class="fab fa-instagram"></i></div>
+                                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                            </div>
+                            <div class="button">
+                                <div class="icon"><i class="fab fa-youtube"></i></div>
+                                <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 text-center">
+                    <h2>Design Smlie</h2>
+                    <p>Boutique practie in the heart of Malmö</p>
+                </div>
+
+                <div class="col-12 col-lg-6 text-center">
+                    <p><i class="fas fa-envelope"></i>hagstam@hagstam.clinic.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i>Oral Care, Gustav Adolfs torg 45, 211 39, Malmö</p>
+                </div>
+
+                <div class="col-12 text-center">
+                    <p class="copyrights-paragraph">Copyrights © Hagstam Harrison Clinic 2021</p>
+                </div>
+            </div>
+                
         </div>
-    </div>
-</footer>
+    </footer>
 <!----------------------------------- Script ---------------------------------->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
