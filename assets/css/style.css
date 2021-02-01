@@ -10,7 +10,11 @@
 /*------------------------------------------- Background colour Main Sections ---------------------*/
 
 .navbar-colors {
-    background: #49bed8 !important;
+    background: rgba(73,190,216,0.9) !important;       
+}
+
+#about-me {
+    background: #a8a8a8  
 }
 
 footer {
@@ -75,16 +79,24 @@ footer {
 /*------------------------------------------- Services ---------------------*/
 
 #our-services {
-    background-color: #fff;
+    background-color: #ecf0f3;
+    padding: 3em;
 }
 
 #our-services h2 {
+    font-size: 2.5em;
     text-align: center;
-    padding: 1em;
+    padding-bottom: 1em;
+    color: rgba(73,190,216)
+    
 }
 
 .card {
     text-align: center;
+    border-radius: 25px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff;
 }
 
 .card img {
@@ -92,19 +104,26 @@ footer {
     margin: 0 auto; 
     border-radius: 20px; 
     margin-top: 15px;
+    box-shadow: -13px -13px 20px #ffffff,
+                4px 4px 8px #40566d;
+                
 }
  
 /*------------------------------------------- About & Patient ---------------------*/
 
+#about-me {
+    padding-bottom: 3em;
+}
+
 .front-box {
     border: 1px solid;
     padding: 10px;
-    box-shadow: -5px 10px #888888;
     margin-left: 3em;
     margin-top: 100px;
     position: relative;
     padding-top: 100px;
-    border-radius: 20px;
+    background-color: #fff;
+    border-radius: 25px;
 }
 
 .front-box h3 {
@@ -130,9 +149,10 @@ footer {
     margin: 0 auto;
     margin-top: 100px;
     border: 1px solid;
-    border-radius: 20px; 
     text-align: center;
-    box-shadow: -5px 10px #888888;  
+    background-color: #fff;
+    border-radius: 25px;
+ 
 }
 
 .patient-card h3 {

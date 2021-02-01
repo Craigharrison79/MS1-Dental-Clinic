@@ -31,7 +31,8 @@
     </div>
 </div>
 <!--------------------------------- Navbar --------------------------------------->
-    <nav class="navbar navbar-expand-md bg-dark sticky-top navbar-colors">
+    <nav class="navbar navbar-expand-md navbar-light sticky-top navbar-colors border-bottom border-top border-dark">
+        <div class="container-fluid">
         <a class="navbar-brand brand-name" href="#">Design Smile</a>
             <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,9 +45,12 @@
                 <a class="nav-item nav-link" href="#clinic">The Clinic</a>
                 <a class="nav-item nav-link" href="#contact">Contact Us</a>
             </div>
+            
 <!--------------------------------- Call Us BTN--------------------------------------->
-                <button class="btn btn-sm btn-outline-secondary nav-button" type="button"><a id="call-us" href="tel:+46723877855">Call Us</a></button> 
+               <button class="btn btn-sm btn-outline-secondary nav-button" type="button"><a id="call-us" href="tel:+46723877855">Call Us</a></button> 
+        
         </div>
+    </div>
     </nav>
 <main>
 <!--------------------------------- Landing Page --------------------------------------->
@@ -66,10 +70,10 @@
 <!--------------------------------- Service --------------------------------------->
     <section id="our-services">
         <div class="container">
-                <h2>Our Services</h2>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <h2 class="title">Our Services</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 cards">
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 border-0">
                         <!--------  Photo by Anna Shvets from Pexels   -->
                         <img src="assets/image/pexels-anna-shvets-3845653.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -79,7 +83,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 border-0">
                         <img src="assets/image/pexels-anna-shvets-3845653.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h4 class="card-title">Prosthetics & Implants</h4>
@@ -88,7 +92,7 @@
                     </div>
                 </div>
                 <div class="col d-md-none d-lg-block">
-                    <div class="card h-100">
+                    <div class="card h-100 border-0">
                         <img src="assets/image/pexels-anna-shvets-3845653.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h4 class="card-title">Aesthetic Dentistry</h4>
@@ -183,7 +187,7 @@
     <!--------------------------------- Contact & Opening--------------------------------------->
     <section id="contact">
         <div class="container-fluid">
-            <div class="row g-3">
+            <div class="row g-3 justify-content-center">
                 <div class="col-12 col-lg-6">
                     <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/">
                         <div class="text-center">
@@ -225,7 +229,7 @@
                         </div>
                     </form>    
                 </div>
-                <div class="col-12 col-lg-6 text-center">
+                <div class="col-12 col-lg-3 text-center">
                     <div>
                         <h4>Opening Times</h4>
                             <p>MONDAY: 7 AM - 6.30 PM <br>
