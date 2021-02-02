@@ -57,9 +57,9 @@
     <section class="landing-page">
         <div class="container-fluid">
             <div class="row">
-                <div class="hero-img">
+                <div class="hero-img border-bottom border-dark">
                     <div class="col-12 welcome-msg">
-                        <h1>Welcome to <br> Design Smile</h1>
+                        <h1>Welcome to Design Smile</h1>
                         <h3>Boutique practie in the heart of Malmö</h3>
                         <button type="button" class="btn btn-dark">Book Now</button> 
                     </div>
@@ -105,8 +105,12 @@
             </div>
         </div>   
     </section>
-<!--------------------------------- About Me & New Patients--------------------------------------->
+    
+    <!--------------------------------- About Me & New Patients--------------------------------------->
     <section id="about-me">
+        <div class="wave">
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 220"><path fill="#ecf0f3" fill-opacity="1" d="M0,64L60,64C120,64,240,64,360,58.7C480,53,600,43,720,48C840,53,960,75,1080,96C1200,117,1320,139,1380,149.3L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+    </div>
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6 front-box">
@@ -123,7 +127,6 @@
                 </div>
             </div>
         </div>
-    </section>
         <!-- Modal -->
         <div class="modal fade" id="newpatient" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -142,7 +145,8 @@
                 </div>
             </div>
         </div>
-    
+        </section>
+        <div><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 180"><path fill="rgba(29,161,250)" fill-opacity="1" d="M0,160L60,144C120,128,240,96,360,96C480,96,600,128,720,133.3C840,139,960,117,1080,117.3C1200,117,1320,139,1380,149.3L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg></div>
 <!--------------------------------- Clinic--------------------------------------->
     <section id="clinic">
         <div class="container-fluid">
@@ -188,7 +192,7 @@
     <section id="contact">
         <div class="container-fluid">
             <div class="row g-3 justify-content-center">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 form-card">
                     <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/">
                         <div class="text-center">
                             <h3>Contact Us</h3>
@@ -206,13 +210,13 @@
                             <input type="email" class="form-control" id="email" placeholder="Email" aria-label="Email">
                         </div>
                         <div class="col-md-6">
-                            <label for="telephone" class="form-label">Telephone we can contact you on</label>
+                            <label for="telephone" class="form-label">Telephone to contact you on</label>
                             <input type="tel" class="form-control" id="telephone" placeholder="Telephone Number" aria-label="Telephone number">
                         </div>
                         <div class="col-md-6 form-group">
                         <label for="reason" class="form-label">What subject matter?</label>
                         <select class="form-control" id="reason" aria-label="mutiple select">
-                            <option></option>
+                            <option>Please pick one!</option>
                             <option>Rebooking</option>
                             <option>Canceling</option>
                             <option>Emergyery</option>

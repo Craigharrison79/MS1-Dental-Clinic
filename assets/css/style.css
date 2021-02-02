@@ -10,12 +10,20 @@
 /*------------------------------------------- Background colour Main Sections ---------------------*/
 
 .navbar-colors {
-    background: rgba(73,190,216,0.9) !important;       
+    background: rgba(29,161,250) !important;       
 }
 
-#about-me {
+#our-services {
+    background-color: #ecf0f3;
+}
+
+/*#about-me {
     background: #a8a8a8  
 }
+
+#clinic {
+    background-color: #ecf0f3;
+}*/
 
 footer {
     background: #333333;
@@ -50,6 +58,7 @@ footer {
 
 /*------------------------------------------- Hero Section ---------------------*/
 
+
 .hero-img {
     background: url('../image/istockphoto-977601820-170667a.jpg') no-repeat bottom center;
     background-size: cover;
@@ -59,13 +68,13 @@ footer {
 
 .welcome-msg {
     width: 80%;
-    text-align: center;
-    margin-top: 15vh;
-    background-color: rgba(215, 238, 238, 0.7);
-    padding: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
+    margin-top: 20vh;
+    margin-left: 3em;
+    
+}
+
+.welcome-msg button {
+    background-color: rgba(29,161,250);
 }
 
 .welcome-msg h1 {
@@ -80,14 +89,15 @@ footer {
 
 #our-services {
     background-color: #ecf0f3;
-    padding: 3em;
+    padding-top: 3em;
+    padding-bottom: 1.5em;
 }
 
 #our-services h2 {
     font-size: 2.5em;
     text-align: center;
     padding-bottom: 1em;
-    color: rgba(73,190,216)
+    color: rgba(29,161,250)
     
 }
 
@@ -111,15 +121,19 @@ footer {
  
 /*------------------------------------------- About & Patient ---------------------*/
 
+.wave {
+    background-color: rgba(29,161,250);
+}
+
 #about-me {
     padding-bottom: 3em;
+    background-color: rgba(29,161,250);
 }
 
 .front-box {
     border: 1px solid;
     padding: 10px;
-    margin-left: 3em;
-    margin-top: 100px;
+    margin: 0 auto;
     position: relative;
     padding-top: 100px;
     background-color: #fff;
@@ -147,7 +161,6 @@ footer {
 
 .patient-card {
     margin: 0 auto;
-    margin-top: 100px;
     border: 1px solid;
     text-align: center;
     background-color: #fff;
@@ -172,7 +185,7 @@ footer {
 /*------------------------------------------- Clinic ---------------------*/
 
 #clinic {
-    margin-top: 2em;
+    
     margin-bottom: 2em;
     text-align: center;
 }
@@ -185,6 +198,14 @@ footer {
 
 #contact {
     margin-bottom: 3em;
+    margin-top: 8em;
+}
+
+.form-card {
+    background-color: #1da1fa;
+    border: solid 1px black;
+    border-radius: 25px;
+    padding: 1.2em;
 }
 
 /*------------------------------------------- Address & Map ---------------------*/
@@ -196,6 +217,11 @@ footer {
     width: 100%;
     height: 5em;
 }
+
+/*------------------------------------------- Contact ---------------------*/
+
+
+
 
 /*------------------------------------------- Footer ---------------------*/
 
@@ -315,23 +341,35 @@ footer p {
         left: 120px;
     }
 
+    .welcome-msg {
+    width: 80%;
+    text-align: center;
+    margin-top: 15vh;
+    background-color: rgba(215, 238, 238, 0.7);
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
     .front-box {
         box-shadow: 0px 10px #888888;
         margin-left: 0;
+        margin-top: 3em;
         
-}
+    }
 
     .patient-card {
     margin-top: 40px;
     box-shadow: 0px 10px #888888;
       
-}
+    }
 
 .wrapper .button {
     display: inline-block;
     height: 40px;
     width: 40px;   
-}
+    }
 
 .wrapper .button:hover {
     width: 180px;
