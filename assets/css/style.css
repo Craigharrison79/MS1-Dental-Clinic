@@ -264,16 +264,21 @@ footer {
 
 #map {
     background-color: #1da1fa;
-    padding: 2em 0;
+    padding-bottom: 8em;
 }
 
+.address-info {
+    padding-top: 9em;
+    line-height: 2em;
+}
 
+.address-info h5 {
+    line-height: 2em;
+}
 
-
-
-
-
-
+.fas-big {
+    font-size: 50px;
+}
 
 /*------------------------------------------- Footer ---------------------*/
 
@@ -282,11 +287,28 @@ footer {
 }
 
 footer h2 {
-    color: white;
+    color: #1da1fa;
+    padding-bottom: 0.5em;
 }
 
 footer p {
     color: white;
+}
+
+.gap {
+    line-height: 2em;
+    padding-left: 10em;
+}
+
+.box-space {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.fas-footer {
+    font-size: 30px;
+    color: #1da1fa;
+    margin-right: 0.5em;
 }
 
 /*------------------------------------------- social media links ---------------------*/
@@ -331,32 +353,6 @@ footer p {
     transition: all 0.3s ease-out;
 }
 
-.wrapper .button:nth-child(1):hover .icon {
-    background: #4267b2;
-}
-
-.wrapper .button:nth-child(2):hover .icon {
-    background: #1da1fa;
-}
-
-.wrapper .button:nth-child(3):hover .icon {
-    background: #d1306c;
-}
-
-.wrapper .button:nth-child(5):hover .icon {
-    background: #ff0000;
-}
-
-.wrapper .button .icon i {
-    font-size: 25px;
-    line-height: 60px;
-    transition: all 0.3s ease-out;
-}
-
-.wrapper .button:hover .icon i {
-    color: #fff;
-}
-
 .wrapper .button a {
     font-size: 20px;
     font-weight: 500;
@@ -377,7 +373,7 @@ footer p {
     color: #d1306c;
 }
 
-.wrapper .button:nth-child(5) a{
+.wrapper .button:nth-child(4) a{
     color: #ff0000;
 }
 
@@ -418,7 +414,17 @@ footer p {
     .times-info {
     padding-top: 4em;
     line-height: 2em;
-}
+    }
+
+    .gap {
+    padding: 0em;
+
+    }
+
+    .line-center {
+        text-align: center;
+    }
+
 
  /*------------------------------------------------- Links -------------------------*/
 
@@ -429,8 +435,24 @@ footer p {
             }
 
             .wrapper .button:hover {
-            width: 180px;
-            }   
+            width: 40px;
+            }
+
+            .wrapper .button:nth-child(1):hover .icon {
+                background: #4267b2;
+            }
+
+            .wrapper .button:nth-child(2):hover .icon {
+                background: #1da1fa;
+            }
+
+            .wrapper .button:nth-child(3):hover .icon {
+                background: #d1306c;
+            }
+
+            .wrapper .button:nth-child(4):focus-visible .icon {
+                background: #ff0000;
+            }
 
             .wrapper .button .icon {
             display: inline-block;
