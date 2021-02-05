@@ -47,7 +47,7 @@
             </div>
             
 <!--------------------------------- Call Us BTN--------------------------------------->
-               <button class="btn btn-sm btn-outline-secondary nav-button" type="button"><a id="call-us" href="tel:+46723877855">Call Us</a></button> 
+               <button class="btn btn-sm btn-outline-light nav-button" type="button"><a id="call-us" href="tel:+46723877855">Call Us</a></button> 
         
         </div>
     </div>
@@ -61,7 +61,7 @@
                     <div class="col-12 welcome-msg">
                         <h1>Welcome to Design Smile</h1>
                         <h3>Boutique practie in the heart of Malmö</h3>
-                        <button type="button" class="btn btn-dark">Book Now</button> 
+                        <a href="#contact-form"><button type="button" class="btn btn-dark msg-button">Book Now</button></a>
                     </div>
                 </div>
             </div>
@@ -125,7 +125,7 @@
                 <div class="col-12 col-lg-4 patient-card" id="patient">
                     <h3>New Patient</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex minima, id architecto quod laudantium animi numquam ipsa delectus sint magni cumque dignissimos placeat doloribus deserunt vero saepe ad dolore sit et eum reiciendis. Reiciendis, ullam fugiat? Commodi natus nostrum, ex esse officiis mollitia? Nisi quod quis, sapiente in, quae, eius esse repellendus autem vel facere atque. Ut explicabo consequuntur cum?</p>
-                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#newpatient">Dark</button>
+                        <button type="button" class="btn btn-dark msg-button" id="msg-button" data-bs-toggle="modal" data-bs-target="#newpatient">Dark</button>
                 </div>
             </div>
         </div>
@@ -138,11 +138,74 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                            ...
+                        <form class="row g-3" id="new-patient-form" method="POST" action="https://formdump.codeinstitute.net/">
+                        <div class="col-md-6">
+                            <label for="fname" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="fname" placeholder="First Name" aria-label="Frist name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lname" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lname" placeholder="Last Name" aria-label="Last name">
+                        </div>
+                        <div class="col-12">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email" aria-label="Email">
+                        </div>
+                        <div class="col-12">
+                            <label for="telephone" class="form-label">Telephone Number</label>
+                            <input type="tel" class="form-control" id="telephone" placeholder="Telephone Number" aria-label="Telephone number">
+                        </div>
+                        <div class="col-12 form-group">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="past-year">
+                                <label class="form-check-label" for="past-year">Have to seen a dentist in the last year?</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p>If uncheck please enter the last time you visit the dentist?</p>
+                            <div class="row">
+                                <div class="col-4 form-check">
+                                    <input class="form-check-input" type="checkbox" name="flexCheckDefault" id="flexCheckDefault1">
+                                    <label class="form-check-label" for="flexCheckDefault1">
+                                        2-3 years ago
+                                    </label>
+                                    </div>
+                                    <div class="col-4 form-check">
+                                    <input class="form-check-input" type="checkbox" name="flexCheckDefault" id="flexCheckDefault2">
+                                    <label class="form-check-label" for="flexCheckDefault2">
+                                        4-5 years ago
+                                    </label>
+                                </div>
+                                <div class="col-4 form-check">
+                                    <input class="form-check-input" type="checkbox" name="flexCheckDefault" id="flexCheckDefault3">
+                                    <label class="form-check-label" for="flexCheckDefault2">
+                                        5+ years ago
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 form-group">
+                        <label for="reason" class="form-label">What kind of booking would you like to make?</label>
+                        <select class="form-control" id="reason" aria-label="mutiple select">
+                            <option>Please pick one!</option>
+                            <option>Check Up</option>
+                            <option>Cleaning</option>
+                            <option>Teeth Whiting</option>
+                            <option>Emergyery</option>
+                            <option>------</option>
+                            <option>Other</option>
+                        </select>
+                        </div>
+                        <div class="col-12">
+                            <label for="message" class="form-label">How may we help you?</label>
+                            <textarea class="form-control" id="message" aria-label="message on how we can help you?" rows="6" data-name="Message" required></textarea>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-primary">Sign in</button>
+                        </div>
+                    </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
                     </div>
                 </div>
             </div>
@@ -199,30 +262,31 @@
         <div class="container-fluid">
             <div class="row g-3 justify-content-center">
                 <div class="col-12 col-lg-6 form-card">
-                    <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/">
+                    <form class="row g-3" id="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
                         <div class="text-center">
                             <h3>Contact Us</h3>
                         </div>
                         <div class="col-md-6">
-                            <label for="fname" class="form-label">First Name</label>
-                            <input type="text" class="form-control" id="fname" placeholder="First Name" aria-label="Frist name">
+                            <label for="firstname" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstname" placeholder="First Name" aria-label="Frist name">
                         </div>
                         <div class="col-md-6">
-                            <label for="lname" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" id="lname" placeholder="Last Name" aria-label="Last name">
+                            <label for="lastname" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lastname" placeholder="Last Name" aria-label="Last name">
                         </div>
                         <div class="col-12">
-                            <label for="email" class="form-label">Email Address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email" aria-label="Email">
+                            <label for="email-address" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email-address" placeholder="Email" aria-label="Email">
                         </div>
                         <div class="col-md-6">
-                            <label for="telephone" class="form-label">Telephone to contact you on</label>
-                            <input type="tel" class="form-control" id="telephone" placeholder="Telephone Number" aria-label="Telephone number">
+                            <label for="phone" class="form-label">Telephone to contact you on</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Telephone Number" aria-label="Telephone number">
                         </div>
                         <div class="col-md-6 form-group">
-                        <label for="reason" class="form-label">What subject matter?</label>
-                        <select class="form-control" id="reason" aria-label="mutiple select">
+                        <label for="reason-for" class="form-label">What subject matter?</label>
+                        <select class="form-control" id="reason-for" aria-label="mutiple select">
                             <option>Please pick one!</option>
+                            <option>Make a Booking</option>
                             <option>Rebooking</option>
                             <option>Canceling</option>
                             <option>Emergyery</option>
@@ -231,8 +295,8 @@
                         </select>
                         </div>
                         <div class="col-12">
-                            <label for="message" class="form-label">How may we help you?</label>
-                            <textarea class="form-control" id="message" aria-label="message on how we can help you?" rows="6" data-name="Message" required></textarea>
+                            <label for="msg" class="form-label">How may we help you?</label>
+                            <textarea class="form-control" id="msg" aria-label="message on how we can help you?" rows="6" data-name="Message" required></textarea>
                         </div>
                         <div class="col-12 text-center">
                             <button type="submit" class="btn btn-primary">Sign in</button>
@@ -272,20 +336,19 @@
                     <div class="text-center address-info">
                         <h4>Address</h4>
                         <h5><i class="fas fas-big fa-map-marker-alt"></i>
-                            <br> Oral Care, <br> Gustav Adolfs torg 45, <br> 211 39, Malmö</h5>
+                            <br> Design Smile, <br> 79 Gustav Adolfs Torg, <br> 211 39, Malmö</h5>
                     </div>
                 </div>
             
             <!----------- Use https://www.maps.ie/create-google-map/ to add the map -------------------->
                 
                 <div class="col-12 col-lg-9">
+                        
                     <div style="width: 100%">
-                        <iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" 
-                        marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;
-                        hl=en&amp;q=Gustav%20Adolfs%20torg%2045+(Oral%20Care)&amp;t=&amp;z=16&amp;ie=UTF8&amp;
-                        iwloc=B&amp;output=embed"></iframe>
+                        <iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+                        src="https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=Gustav%20Adolfs%20Torg+(Design%20Smile)&amp;
+                        t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                     </div>
-                    
                 </div>    
             </div>
         </div>
@@ -325,7 +388,7 @@
 
                 <div class="col-12 col-lg-6 gap line-center">
                     <p><i class="fas fas-footer fa-envelope"></i> hagstam@hagstam.clinic.com</p>
-                    <p><i class="fas fas-footer fa-map-marked-alt"></i> Oral Care, Gustav Adolfs torg <br> 45, 211 39, Malmö</p>
+                    <p><i class="fas fas-footer fa-map-marked-alt"></i> Design Smile, 79 Gustav Adolfs torg <br> 211 39, Malmö</p>
                 </div>
                 </div>
                 <div class="col-12 text-center">

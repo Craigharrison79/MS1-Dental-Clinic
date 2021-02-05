@@ -39,7 +39,7 @@ footer {
 
 /*------------------------------------------- Navbar ---------------------*/
 .navbar-colors a {
-    color: #252525;
+    color: #fff;
 }
 
 .brand-name {
@@ -59,6 +59,14 @@ footer {
     text-transform: uppercase;
 }
 
+#call-us:hover {
+    color: rgba(29,161,250);
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
 /*------------------------------------------- Hero Section ---------------------*/
 
 
@@ -76,8 +84,9 @@ footer {
     
 }
 
-.welcome-msg button {
+.msg-button {
     background-color: rgba(29,161,250);
+    color: black;
 }
 
 .welcome-msg h1 {
@@ -187,10 +196,11 @@ footer {
     padding: 0 1em;
 }
 
-.patient-card button {
+#msg-button {
     margin-top: 0.75em;
     margin-bottom: 2em;
 }
+
 
 /*------------------------------------------- Clinic ---------------------*/
 
@@ -392,6 +402,20 @@ footer p {
 
 /*------------------------------------------------- media screen -------------------------*/
 
+@media screen and (max-width: 590px) {
+
+    .welcome-msg {
+    width: 80%;
+    text-align: center;
+    margin-top: 15vh;
+    background-color: rgba(215, 238, 238, 0.5);
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    }
+}
+
  @media screen and (max-width: 471px) {
     #about-me img {
         height: 150px;
@@ -407,7 +431,7 @@ footer p {
     text-align: center;
     margin-top: 15vh;
     background-color: rgba(215, 238, 238, 0.7);
-    padding: 2em;
+    padding: 1.5em;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
