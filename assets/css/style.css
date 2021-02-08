@@ -420,6 +420,35 @@ footer p {
 
 /*------------------------------------------------- media screen -------------------------*/
 
+@media screen and (max-width: 1200px) {
+    #about-me img {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        position: absolute;
+        top: -80px;
+        right: -10px;   
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    #about-me img {
+        top: -60px;    
+    }
+
+    .front-box {
+        margin-bottom: 3em;
+    }
+
+    .address-info {
+    padding-top: 2em;
+    margin-bottom: 1.5em;
+    line-height: 2em;
+    }
+}
+
+
 @media screen and (max-width: 590px) {
 
     .welcome-msg {
@@ -434,12 +463,15 @@ footer p {
     }
 }
 
+@media screen and (max-width: 590px) {
+    #about-me img {
+        top: -80px;
+        left: 200px;
+    }
+}
+
  @media screen and (max-width: 471px) {
     #about-me img {
-        height: 150px;
-        width: 150px;
-        border-radius: 50%;
-        position: absolute;
         top: -80px;
         left: 120px;
     }
@@ -456,14 +488,12 @@ footer p {
     }
 
     .front-box {
-        box-shadow: 0px 10px #888888;
         margin-left: 0;
         margin-top: 3em;   
     }
 
     .patient-card {
     margin-top: 40px;
-    box-shadow: 0px 10px #888888; 
     }
 
     .times-info {
@@ -483,6 +513,18 @@ footer p {
     .box-space {
         margin-top: 1em;
     }
+ }
+
+@media screen and (max-width: 320px) {
+    
+    .brand-name {
+        font-size: 1.2em;
+    }
+
+    .welcome-msg h1{
+        font-size: 2em;
+    }
+
 
  /*------------------------------------------------- Links -------------------------*/
 
