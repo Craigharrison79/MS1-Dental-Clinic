@@ -9,7 +9,7 @@ I wanted to build a website of a family member who wanted to advertise her busin
 
 ![Desgin Smile] (link to file)
 
-[View Live Website Here] (https://)
+[View Live Website Here](https://craigharrison79.github.io/MS1-Dental-Clinic/)
 
 ## Table of Content
 
