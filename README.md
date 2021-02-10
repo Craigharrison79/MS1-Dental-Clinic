@@ -7,7 +7,7 @@
 For my first milestone project I have to build a static responsive front end website as part of my Diploma Course with the Code Institute.
 I wanted to build a website of a family member who wanted to advertise her business through the Covid-19 times and beyond.
 
-![Desgin Smile] (link to file)
+![mock-up] (assets/docu/mock-up.jpg)
 
 [View Live Website Here](https://craigharrison79.github.io/MS1-Dental-Clinic/)
 
@@ -35,29 +35,6 @@ I wanted to build a website of a family member who wanted to advertise her busin
     - [Media](#media)
 
 # UX
-
-## Table of Content
-
-- [UX Design](#ux-design)
-    - [Strategy](#strategy)
-    - [Goals](#goals)
-        - [Owner Goals](#owner-goals)
-        - [User Goals](#user-goals)
-- [Design](#design)
-    - [Wireframes](#wireframes)
-    - [Typography](#Typography)
-    - [Color Scheme](#color-scheme)
-    - [Image](#image)
-- [Features](#features)
-    - [Layout](#layout)
-    - [Features to implement in the future](#features-to-implement-in-the-future)
-- [Technologies used](#technologies-used)
-- [Testing](#testing)
-- [Deployment](#deployment)
-- [Credits](#credits)
-    - [Acknowlegements](#acknowlegements)
-    - [Code](#code)
-    - [Media](#media)
 
 ## Strategy
 
@@ -133,6 +110,18 @@ Readable information about the color blue meaning:
 (https://www.sensationalcolor.com/meaning-of-blue/)
 
 ### Images
+
+- Landing photo is from istockphoto by piprod (https://www.istockphoto.com/se/foto/leende-kvinna-p%C3%A5-40-%C3%A5r-gm977601820-265789058)
+
+- service 1 photo is from Pxfuel by unknown (https://www.pxfuel.com/en/free-photo-qhvsm)
+- service 2 photo is from Unsplash by Jonathan Borba (https://unsplash.com/photos/W9YEY6G8LVM)
+- service 3 photo is from Unsplash by Elena Mozhvilo (https://unsplash.com/photos/YzyvxfzddzA)
+
+- clinic 1 photo is from Unsplash by Nastuh Abootaiebi (https://unsplash.com/photos/rSpMla5RItA)
+- clinic 2 photo is from Pexels by Daniel Frank (https://www.pexels.com/photo/black-and-white-dentist-chair-and-equipment-287237/)
+- clinic 3 photo is from Pexels by Daniel Frank (https://www.pexels.com/photo/chairs-arranged-on-table-305564/)
+- clinic 4 photo is from Pexels by Daniel Frank (https://www.pexels.com/photo/view-of-clinic-305568/)
+- clinic 5 photo is from Rexels by Shvets Anna (https://www.pexels.com/photo/green-leaf-potted-plant-2563411/)
 
 ## Features
 

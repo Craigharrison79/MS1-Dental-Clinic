@@ -71,9 +71,9 @@ footer {
 
 
 .hero-img {
-    background: url('../image/istockphoto-977601820-170667a.jpg') no-repeat bottom center;
+    background: url('../image/landing-photo.jpg') no-repeat bottom center;
     background-size: cover;
-    height: 75vh;
+    height: 85vh;
     overflow: hidden;
 }
 
