@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', 'Roboto', sans-serif;
 }
@@ -23,8 +27,16 @@ body {
     background-color: #ecf0f3;
 }
 
+#about-me {  
+    background-color: rgba(29,161,250);
+}
+
 #clinic {
     background-color: #ecf0f3;
+}
+
+#map {
+    background-color: #1da1fa;
 }
 
 footer {
@@ -69,7 +81,7 @@ footer {
 
 /*------------------------------------------- Hero Section ---------------------*/
 
-
+/*---- Credit photo is from istockphoto by piprod -----*/
 .hero-img {
     background: url('../image/landing-photo.jpg') no-repeat bottom center;
     background-size: cover;
@@ -104,7 +116,6 @@ footer {
 /*------------------------------------------- Services ---------------------*/
 
 #our-services {
-    background-color: #ecf0f3;
     padding-top: 3em;
     padding-bottom: 1.5em;
 }
@@ -142,10 +153,6 @@ footer {
 /*------------------------------------------- About & Patient ---------------------*/
 
 .wave {
-    background-color: rgba(29,161,250);
-}
-
-#about-me {  
     background-color: rgba(29,161,250);
 }
 
@@ -277,7 +284,6 @@ footer {
 /*------------------------------------------- Address & Map ---------------------*/
 
 #map {
-    background-color: #1da1fa;
     padding-bottom: 8em;
 }
 
@@ -353,6 +359,7 @@ footer p {
 }
 
 /*------------------------------------------- social media links ---------------------*/
+/*-----Credit to CodingNepal (youtube) social media buttons. --------*/
 
 .link-buffer {
     margin-top: 1em;
@@ -376,6 +383,10 @@ footer p {
     cursor: pointer;
     box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
     transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    
 }
 
 
@@ -392,6 +403,9 @@ footer p {
     box-sizing: border-box;
     line-height: 60px;
     transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 .wrapper .button a {
