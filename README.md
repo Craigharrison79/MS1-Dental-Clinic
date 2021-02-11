@@ -2,12 +2,12 @@
 
 `python3 -m http.server`
 
-# [Design Smile](link)
+# [Design Smile](https://craigharrison79.github.io/MS1-Dental-Clinic/)
 
 For my first milestone project I have to build a static responsive front end website as part of my Diploma Course with the Code Institute.
 I wanted to build a website of a family member who wanted to advertise her business through the Covid-19 times and beyond.
 
-![mock-up] (assets/docu/mock-up.jpg)
+![Design Smile](assets/docu/screen-mockup.png)
 
 [View Live Website Here](https://craigharrison79.github.io/MS1-Dental-Clinic/)
 
@@ -91,37 +91,43 @@ New Customer is then break down into two categories - new to the area or need he
 
 ### Wireframes
 
-After finish my drawing on paper, I use mockup (https://www.mockflow.com/) on design the overall idea.  Link below to the design.
-(assets)link here.
+After finish my drawing on paper, I use mockup [mockflow.com](https://www.mockflow.com/) on design the overall idea.  Link below to the design.
+ 
+- [Png-desktop-iphone](assets/docu/website-wireframe_Page_1-png)
+- [Png-Ipod](assets/docu/website-wireframe_Page_2-png)
+
+Or
+ 
+ - [Wireframes Download PDF](https://)
 
 ### Typography
 
 I need to have a readable font of anyone to read. Some thing with clean lines and open and not to forcefully.  I pick ‘Roboto’ for my headings and then ‘Poppins’ of everything else.  Both have nice flowing lines and go well together.   I using Google Fonts (Link)
-(https://fonts.google.com/)
+[Google Fonts](https://fonts.google.com/)
 
 ### Color Scheme
 
 Blue: - represents intelligence, responsibility, trustworthy, dependable.  It’s also relaxing and a peaceful color.  
 Readable information about the color blue meaning:
 
-![Colour Scheme](/assets/docu/desingsmile.jpg)
+![Colour Scheme](assets/docu/desingsmile.jpg)
 
-(https://www.bourncreative.com/meaning-of-the-color-blue/)
-(https://www.sensationalcolor.com/meaning-of-blue/)
+[Meaning color blue](https://www.bourncreative.com/meaning-of-the-color-blue/)
+[Meaning of Blue](https://www.sensationalcolor.com/meaning-of-blue/)
 
 ### Images
 
-- Landing photo is from istockphoto by piprod (https://www.istockphoto.com/se/foto/leende-kvinna-p%C3%A5-40-%C3%A5r-gm977601820-265789058)
+- Landing photo is from istockphoto by piprod [iStockphoto](https://www.istockphoto.com/se/foto/leende-kvinna-p%C3%A5-40-%C3%A5r-gm977601820-265789058)
 
-- service 1 photo is from Pxfuel by unknown (https://www.pxfuel.com/en/free-photo-qhvsm)
-- service 2 photo is from Unsplash by Jonathan Borba (https://unsplash.com/photos/W9YEY6G8LVM)
-- service 3 photo is from Unsplash by Elena Mozhvilo (https://unsplash.com/photos/YzyvxfzddzA)
+- service 1 photo is from Pxfuel by unknown [Pxfuel](https://www.pxfuel.com/en/free-photo-qhvsm)
+- service 2 photo is from Unsplash by Jonathan Borba [Unsplash](https://unsplash.com/photos/W9YEY6G8LVM)
+- service 3 photo is from Unsplash by Elena Mozhvilo [Unsplash](https://unsplash.com/photos/YzyvxfzddzA)
 
-- clinic 1 photo is from Unsplash by Nastuh Abootaiebi (https://unsplash.com/photos/rSpMla5RItA)
-- clinic 2 photo is from Pexels by Daniel Frank (https://www.pexels.com/photo/black-and-white-dentist-chair-and-equipment-287237/)
-- clinic 3 photo is from Pexels by Daniel Frank (https://www.pexels.com/photo/chairs-arranged-on-table-305564/)
-- clinic 4 photo is from Pexels by Daniel Frank (https://www.pexels.com/photo/view-of-clinic-305568/)
-- clinic 5 photo is from Rexels by Shvets Anna (https://www.pexels.com/photo/green-leaf-potted-plant-2563411/)
+- clinic 1 photo is from Unsplash by Nastuh Abootaiebi [Unsplash](https://unsplash.com/photos/rSpMla5RItA)
+- clinic 2 photo is from Pexels by Daniel Frank [Pevels](https://www.pexels.com/photo/black-and-white-dentist-chair-and-equipment-287237/)
+- clinic 3 photo is from Pexels by Daniel Frank [Pevels](https://www.pexels.com/photo/chairs-arranged-on-table-305564/)
+- clinic 4 photo is from Pexels by Daniel Frank [Pevels](https://www.pexels.com/photo/view-of-clinic-305568/)
+- clinic 5 photo is from Pexels by Shvets Anna [Pevels](https://www.pexels.com/photo/green-leaf-potted-plant-2563411/)
 
 ## Features
 
@@ -189,6 +195,50 @@ Readable information about the color blue meaning:
 
 - Chrome Development Tools
 
+## Testing
+
+Link to file
+
+## Deployment
+
+Deployment of the project is on GitHub Pages, this is how I deploy it:
+
+- With the code being done in Gitpod and push to my repository in GitHub.
+- Log-in to GitHub and moving to my repository and finding and opening MS1-Dental-Clinic.
+- Locating and clicking on the settings in the menu bar on the top of the page.
+- Scroll down the page till you reach the GitHub Pages section.
+- In this section under the source click the dropdown select that read “None” and select master and then save.
+- Refresh the page and scroll back down the same section and you find the published link for your site.
+
+![deployment](assets/docu/deployment.png)
+
+## Cloning the Project
+
+Cloning the project
+
+When you finish log into Github, navigate to the repository page and select MS1-Dental-Clinic.
+Above the file list, click on the Code button next to the Gitpod button (green button).
+Copy the URL.
+Open your terminal.
+Change the working directory to the location where you want the cloned directory.
+Paste the URL after you have type git clone. eg
+	$ git clone https://github.com/Username/repository-name
+Press enter and this will create a local clone.
+
+More information on cloning repository:
+[Github Information](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+
+![Clone](assets/docu/Cloning.png)
+
+## Forking the Project
+
+Forking the project
+
+When you finish log into Github, navigate to the repository page and select MS1-Dental-Clinic.
+Top right of the page click on the fork button.
+
+More information on fork repository:
+[Github Information](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
 
 ## Acknowledgements
 
@@ -201,11 +251,11 @@ www.
 
 Youtube inspiration from Kevin Powell
 
-CodingNepal (https://www.codingnepalweb.com/2020/07/awesome-social-media-buttons-with-hover-animation.html) social media buttons.  
+[CodingNepal](https://www.codingnepalweb.com/2020/07/awesome-social-media-buttons-with-hover-animation.html) social media buttons.  
 
-https://www.maps.ie/creat-google-map/
+[maps.ie](https://www.maps.ie/creat-google-map/) map website builder.
 
-svg wave - http://www.w3.org/2000/svg
+[svg-waves](http://www.w3.org/2000/svg) website for svg waves.
 
 
 
