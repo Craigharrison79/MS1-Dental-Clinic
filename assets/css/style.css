@@ -16,7 +16,6 @@ body {
     font-family: 'Poppins', 'Roboto', sans-serif;
 }
 
-
 /*------------------------------------------- Background colour Main Sections ---------------------*/
 
 .navbar-colors {
@@ -156,6 +155,15 @@ footer {
     background-color: rgba(29,161,250);
 }
 
+#about-me h2 {
+    font-weight: 500;
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 1em;
+    color: white;
+}
+
+
 .front-box {
     border: 1px solid;
     padding: 10px;
@@ -278,7 +286,8 @@ footer {
 }
 
 .telephone-info a, i {
-   font-size: 50px;;
+   font-size: 50px;
+   color: #1da1fa;
 }
 
 /*------------------------------------------- Address & Map ---------------------*/
@@ -500,6 +509,10 @@ footer p {
     margin-right: auto;
     border-radius: 20px;
     }
+
+    #about-me h2 {
+    padding-bottom: 0;
+}
 
     .front-box {
         margin-left: 0;
