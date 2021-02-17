@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="Dental Clinic in Malmö, Sweden">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Linda Hagstam Harrison Dental Clinic</title>
@@ -15,31 +14,6 @@
         <strong>Covid-19!</strong> Please wear a mask when coming into the clinic<a href="#" class="alert-link" data-bs-toggle="modal" data-bs-target="#exampleModal"> Info click here</a>
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>    
     </div>
-
-<!--------------------------------- Modal --------------------------------------->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Covid-19 Information</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-               <p>Design Smile is following the governent regulations on Covid.  We asked all patients to please wear a face mask when entering the clinic.
-                   If you do not have one we will provide one on entry to the clinic.
-               </p>
-               <br>
-               <p>Due to the linitations on the number of people who can be in the clinic at one time, we ask that you come by yourself.
-                   If for any reason you need to bring someone to for help or assistance or as a caretaker/caregiver, we ask that you please phone the clinic
-                   before hand so we can make accommodations for you.
-               </p> 
-               <br>
-               <p>Your health and safety is a priority to us at this time.</p>  
-            </div>
-                    <div class="modal-footer"></div>
-        </div>
-    </div>
-</div>
 <!--------------------------------- Navbar --------------------------------------->
     <nav class="navbar navbar-expand-lg navbar-light sticky-top navbar-colors border-bottom border-top border-dark">
         <div class="container-fluid">
@@ -50,7 +24,8 @@
             </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav ms-md-auto">
-                <li><a class="nav-item nav-link" href="#our-services" aria-current="page">Our Services</a></li>
+                <li><a class="nav-item nav-link" href="#" aria-current="page">Home</a></li>
+                <li><a class="nav-item nav-link" href="#our-services">Our Services</a></li>
                 <li><a class="nav-item nav-link" href="#about-me">Meet Linda</a></li>
                 <li><a class="nav-item nav-link" href="#patient">New Patients</a></li>
                 <li><a class="nav-item nav-link" href="#clinic">The Clinic</a></li>
@@ -153,87 +128,6 @@
                 </div>
             </div>
         </div>
-        <!-- Modal -->
-        <div class="modal fade" id="newpatient" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="newpatientLabel">New Patients</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form class="row g-3" id="new-patient-form" method="POST" action="https://formdump.codeinstitute.net/">
-                        <div class="col-md-6">
-                            <label for="fname" class="form-label">First Name</label>
-                            <input type="text" class="form-control" id="fname" placeholder="First Name" aria-label="Frist name">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="lname" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" id="lname" placeholder="Last Name" aria-label="Last name">
-                        </div>
-                        <div class="col-12">
-                            <label for="email" class="form-label">Email Address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email" aria-label="Email">
-                        </div>
-                        <div class="col-12">
-                            <label for="telephone" class="form-label">Telephone Number</label>
-                            <input type="tel" class="form-control" id="telephone" placeholder="Telephone Number" aria-label="Telephone number">
-                        </div>
-                        <div class="col-12 form-group">
-                            <div class="form-check form-switch">
-                                <input class="form-check-input" type="checkbox" id="past-year">
-                                <label class="form-check-label" for="past-year">Have to seen a dentist in the last year?</label>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <p>If uncheck please enter the last time you visit the dentist?</p>
-                            <div class="row">
-                                <div class="col-4 form-check">
-                                    <input class="form-check-input" type="checkbox" name="flexCheckDefault" id="flexCheckDefault1">
-                                    <label class="form-check-label" for="flexCheckDefault1">
-                                        2-3 years ago
-                                    </label>
-                                    </div>
-                                    <div class="col-4 form-check">
-                                    <input class="form-check-input" type="checkbox" name="flexCheckDefault" id="flexCheckDefault2">
-                                    <label class="form-check-label" for="flexCheckDefault2">
-                                        4-5 years ago
-                                    </label>
-                                </div>
-                                <div class="col-4 form-check">
-                                    <input class="form-check-input" type="checkbox" name="flexCheckDefault" id="flexCheckDefault3">
-                                    <label class="form-check-label" for="flexCheckDefault2">
-                                        5+ years ago
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 form-group">
-                        <label for="reason" class="form-label">What kind of booking would you like to make?</label>
-                        <select class="form-control" id="reason" aria-label="mutiple select">
-                            <option>Please pick one!</option>
-                            <option>Check Up</option>
-                            <option>Cleaning</option>
-                            <option>Teeth Whiting</option>
-                            <option>Emergyery</option>
-                            <option>------</option>
-                            <option>Other</option>
-                        </select>
-                        </div>
-                        <div class="col-12">
-                            <label for="message" class="form-label">How may we help you?</label>
-                            <textarea class="form-control" id="message" aria-label="message on how we can help you?" rows="6" data-name="Message" required></textarea>
-                        </div>
-                        <div class="col-12 text-center">
-                            <button type="submit" class="btn btn-primary">Send</button>
-                        </div>
-                    </form>
-                    </div>
-                    <div class="modal-footer">
-                    </div>
-                </div>
-            </div>
-        </div>
         </section>
         <div class="wave-2"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 200"><path fill="rgba(29,161,250)" fill-opacity="1" d="M0,160L60,144C120,128,240,96,360,96C480,96,600,128,720,133.3C840,139,960,117,1080,117.3C1200,117,1320,139,1380,149.3L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg></div>
 <!--------------------------------- Clinic--------------------------------------->
@@ -317,7 +211,7 @@
                             <textarea class="form-control" id="msg" aria-label="message on how we can help you?" rows="6" data-name="Message" required></textarea>
                         </div>
                         <div class="col-12 text-center">
-                            <button type="submit" class="btn btn-primary">Send</button>
+                            <button type="button" class="btn btn-primary">Send</button>
                         </div>
                     </form>    
                 </div>
@@ -424,10 +318,113 @@
                 
         </div>
     </footer>
+    <!--------------------------------- Modal Covid-19 --------------------------------------->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Covid-19 Information</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+               <p>Design Smile is following the governent regulations on Covid.  We asked all patients to please wear a face mask when entering the clinic.
+                   If you do not have one we will provide one on entry to the clinic.
+               </p>
+               <br>
+               <p>Due to the linitations on the number of people who can be in the clinic at one time, we ask that you come by yourself.
+                   If for any reason you need to bring someone to for help or assistance or as a caretaker/caregiver, we ask that you please phone the clinic
+                   before hand so we can make accommodations for you.
+               </p> 
+               <br>
+               <p>Your health and safety is a priority to us at this time.</p>  
+            </div>
+                    <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+<!-- Modal New Patients -->
+        <div class="modal fade" id="newpatient" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="newpatientLabel">New Patients</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="row g-3" id="new-patient-form" method="POST" action="https://formdump.codeinstitute.net/">
+                        <div class="col-md-6">
+                            <label for="fname" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="fname" placeholder="First Name" aria-label="Frist name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lname" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lname" placeholder="Last Name" aria-label="Last name">
+                        </div>
+                        <div class="col-12">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email" aria-label="Email">
+                        </div>
+                        <div class="col-12">
+                            <label for="telephone" class="form-label">Telephone Number</label>
+                            <input type="tel" class="form-control" id="telephone" placeholder="Telephone Number" aria-label="Telephone number">
+                        </div>
+                        <div class="col-12 form-group">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="past-year">
+                                <label class="form-check-label" for="past-year">Have to seen a dentist in the last year?</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p>If uncheck please enter the last time you visit the dentist?</p>
+                            <div class="row">
+                                <div class="col-4 form-check">
+                                    <input class="form-check-input" type="checkbox" name="flexCheckDefault" id="flexCheckDefault1">
+                                    <label class="form-check-label" for="flexCheckDefault1">
+                                        2-3 years ago
+                                    </label>
+                                    </div>
+                                    <div class="col-4 form-check">
+                                    <input class="form-check-input" type="checkbox" name="flexCheckDefault" id="flexCheckDefault2">
+                                    <label class="form-check-label" for="flexCheckDefault2">
+                                        4-5 years ago
+                                    </label>
+                                </div>
+                                <div class="col-4 form-check">
+                                    <input class="form-check-input" type="checkbox" name="flexCheckDefault" id="flexCheckDefault3">
+                                    <label class="form-check-label" for="flexCheckDefault2">
+                                        5+ years ago
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 form-group">
+                        <label for="reason" class="form-label">What kind of booking would you like to make?</label>
+                        <select class="form-control" id="reason" aria-label="mutiple select">
+                            <option>Please pick one!</option>
+                            <option>Check Up</option>
+                            <option>Cleaning</option>
+                            <option>Teeth Whiting</option>
+                            <option>Emergyery</option>
+                            <option>------</option>
+                            <option>Other</option>
+                        </select>
+                        </div>
+                        <div class="col-12">
+                            <label for="message" class="form-label">How may we help you?</label>
+                            <textarea class="form-control" id="message" aria-label="message on how we can help you?" rows="6" data-name="Message" required></textarea>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button type="button" class="btn btn-primary">Send</button>
+                        </div>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
 <!----------------------------------- Script ---------------------------------->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" 
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/772672d42b.js" crossorigin="anonymous"></script>
 </body>
 </html>
