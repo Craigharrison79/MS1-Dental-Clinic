@@ -8,6 +8,12 @@
     padding: 0;
 }
 
+svg {
+vertical-align: baseline;
+border: none;
+}
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -153,13 +159,15 @@ footer {
 
 .wave {
     background-color: rgba(29,161,250);
+    border: none;
 }
 
 #about-me h2 {
     font-weight: 500;
     font-size: 2.5em;
     text-align: center;
-    padding-bottom: 1em;
+    padding-top: 2em;
+    padding-bottom: 3em;
     color: white;
 }
 
@@ -221,6 +229,7 @@ footer {
 
 .wave-2 {
     background-color: #ecf0f3;
+    border: none;
 }
 
 #clinic {
@@ -244,6 +253,14 @@ footer {
 #contact {
     margin-top: 1.2em;
     margin-bottom: 3em;  
+}
+
+#contact h2 {
+    padding: 0.5em 0;
+    font-weight: 500;
+    font-size: 2.5em;
+    color: rgba(29,161,250);
+    padding-bottom: 1em;
 }
 
 .form-card {
@@ -285,7 +302,7 @@ footer {
     margin-top: 3em;
 }
 
-.telephone-info a, i {
+.phonebtn {
    font-size: 50px;
    color: #1da1fa;
 }
@@ -294,6 +311,15 @@ footer {
 
 #map {
     padding-bottom: 8em;
+}
+
+#map h2 {
+    font-weight: 500;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
 }
 
 .address-info {
@@ -335,7 +361,7 @@ footer p {
 
 .gap {
     line-height: 2em;
-    padding-left: 10em;
+    padding-left: 1em;
 }
 
 .box-space {
@@ -365,6 +391,12 @@ footer p {
 
 .list-item a {
     color: #fff;
+}
+
+/*------------------------------------------- Model ---------------------*/
+
+#check-center {
+    padding-left: 10px;
 }
 
 /*------------------------------------------- social media links ---------------------*/
@@ -494,6 +526,11 @@ footer p {
 }
 
  @media screen and (max-width: 471px) {
+
+    .brand-name {
+        font-size: 1.6em;
+    }
+
     #about-me img {
         top: -80px;
         left: 120px;
@@ -511,7 +548,7 @@ footer p {
     }
 
     #about-me h2 {
-    padding-bottom: 0;
+    padding-bottom: 1em;
 }
 
     .front-box {
@@ -550,6 +587,20 @@ footer p {
 
     .welcome-msg h1{
         font-size: 2em;
+    }
+
+    #about-me h2 {
+        padding-left: 10px;
+    }
+
+    #about-me img {
+        top: -80px;
+        left: 90px;
+    }
+
+    .iphone5se {
+        text-align: center;
+        padding-right: 30px;
     }
 
 
