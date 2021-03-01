@@ -24,10 +24,10 @@ html {
 }
 
 body {
-    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-family: 'Poppins', 'Roboto', sans-serif;    
 }
 
-/*------------------------------------------- Background colour Main Sections ---------------------*/
+/*-- Background colour Main Sections --*/
 
 .navbar-colors {
     background: rgba(29,161,250) !important;       
@@ -53,13 +53,15 @@ footer {
     background: #333333;
 }
 
-/*------------------------------------------- Alert Top ---------------------*/
+/*-- Alert Top --*/
+
 .site-wide-alert {
     margin-bottom: 0;
     text-align: center;
 }
 
-/*------------------------------------------- Navbar ---------------------*/
+/*-- Navbar --*/
+
 .navbar-colors a {
     color: #fff;
 }
@@ -89,9 +91,9 @@ footer {
     color: white !important;
 }
 
-/*------------------------------------------- Hero Section ---------------------*/
+/*-- Hero Section --*/
 
-/*---- Credit photo is from istockphoto by piprod -----*/
+/*-- Credit photo is from istockphoto by piprod --*/
 .hero-img {
     background: url('../image/landing-photo.jpg') no-repeat bottom center;
     background-size: cover;
@@ -102,8 +104,7 @@ footer {
 .welcome-msg {
     width: 80%;
     margin-top: 20vh;
-    margin-left: 3em;
-    
+    margin-left: 3em;  
 }
 
 .msg-button {
@@ -114,7 +115,7 @@ footer {
 .welcome-msg h1 {
     font-family: 'Roboto', 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 3.5em;
     text-shadow: 1px 1px 1px rgb(70, 68, 68);
 }
 
@@ -123,7 +124,7 @@ footer {
     margin-bottom: 20px;
 }
 
-/*------------------------------------------- Services ---------------------*/
+/*-- Services --*/
 
 #our-services {
     padding-top: 3em;
@@ -160,7 +161,7 @@ footer {
                 
 }
  
-/*------------------------------------------- About & Patient ---------------------*/
+/*-- About & Patient --*/
 
 .wave {
     background-color: rgba(29,161,250);
@@ -230,7 +231,7 @@ footer {
 }
 
 
-/*------------------------------------------- Clinic ---------------------*/
+/*-- Clinic --*/
 
 .wave-2 {
     background-color: #ecf0f3;
@@ -253,7 +254,7 @@ footer {
     padding-bottom: 1.2em;
 }
 
-/*------------------------------------------- Contact Info ---------------------*/
+/*-- Contact Info --*/
 
 #contact {
     margin-top: 1.2em;
@@ -312,7 +313,7 @@ footer {
    color: #1da1fa;
 }
 
-/*------------------------------------------- Address & Map ---------------------*/
+/*-- Address & Map --*/
 
 #map {
     padding-bottom: 8em;
@@ -349,7 +350,18 @@ footer {
     font-size: 40px;
 }
 
-/*------------------------------------------- Footer ---------------------*/
+.map-width {
+    width: 100%;
+}
+
+.google-map {
+    width: 100%;
+    height: 500px;
+    border: none;
+    scroll-behavior: smooth;
+}
+
+/*-- Footer --*/
 
 footer {
     background: #333333;
@@ -398,14 +410,14 @@ footer p {
     color: #fff;
 }
 
-/*------------------------------------------- Model ---------------------*/
+/*-- Model --*/
 
 #check-center {
     padding-left: 10px;
 }
 
-/*------------------------------------------- social media links ---------------------*/
-/*-----Credit to CodingNepal (youtube) social media buttons. --------*/
+/*-- social media links --*/
+/*-- Credit to CodingNepal (youtube) social media buttons. --*/
 
 .link-buffer {
     margin-top: 1em;
@@ -512,18 +524,20 @@ footer p {
 @media screen and (max-width: 590px) {
 
     .welcome-msg {
-    width: 80%;
-    text-align: center;
-    margin-top: 15vh;
-    background-color: rgba(215, 238, 238, 0.5);
-    padding: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
+        width: 80%;
+        text-align: center;
+        margin-top: 15vh;
+        background-color: rgba(215, 238, 238, 0.5);
+        padding: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
     }
-}
 
-@media screen and (max-width: 590px) {
+    .welcome-msg h1 {
+        font-size: 2.5rem;
+    }
+
     #about-me img {
         top: -80px;
         left: 200px;
@@ -542,19 +556,19 @@ footer p {
     }
 
     .welcome-msg {
-    width: 80%;
-    text-align: center;
-    margin-top: 15vh;
-    background-color: rgba(215, 238, 238, 0.7);
-    padding: 1.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
+        width: 80%;
+        text-align: center;
+        margin-top: 15vh;
+        background-color: rgba(215, 238, 238, 0.7);
+        padding: 1.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
     }
 
     #about-me h2 {
-    padding-bottom: 1em;
-}
+        padding-bottom: 1em;
+    }
 
     .front-box {
         margin-left: 0;
@@ -562,16 +576,16 @@ footer p {
     }
 
     .patient-card {
-    margin-top: 40px;
+        margin-top: 40px;
     }
 
     .times-info {
-    padding-top: 4em;
-    line-height: 2em;
+        padding-top: 4em;
+        line-height: 2em;
     }
 
     .gap {
-    padding: 0em;
+        padding: 0em;
 
     }
 
@@ -611,45 +625,44 @@ footer p {
 
  /*------------------------------------------------- Links -------------------------*/
 
-            .wrapper .button {
-            display: inline-block;
-            height: 40px;
-            width: 40px;   
-            }
+    .wrapper .button {
+        display: inline-block;
+        height: 40px;
+        width: 40px;   
+    }
 
-            .wrapper .button:hover {
-            width: 40px;
-            }
+    .wrapper .button:hover {
+        width: 40px;
+    }
 
-            .wrapper .button:nth-child(1):hover .icon {
-                background: #4267b2;
-            }
+    .wrapper .button:nth-child(1):hover .icon {
+        background: #4267b2;
+    }
 
-            .wrapper .button:nth-child(2):hover .icon {
-                background: #1da1fa;
-            }
+    .wrapper .button:nth-child(2):hover .icon {
+        background: #1da1fa;
+    }
 
-            .wrapper .button:nth-child(3):hover .icon {
-                background: #d1306c;
-            }
+    .wrapper .button:nth-child(3):hover .icon {
+        background: #d1306c;
+    }
 
-            .wrapper .button:nth-child(4):focus-visible .icon {
-                background: #ff0000;
-            }
+    .wrapper .button:nth-child(4):focus-visible .icon {
+        background: #ff0000;
+    }
 
-            .wrapper .button .icon {
-            display: inline-block;
-            height: 40px;
-            width: 40px;
-            line-height: 40px;   
-            }
+    .wrapper .button .icon {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;   
+    }
 
-            .wrapper .button .icon i {
-            line-height: 40px;
-            }
+    .wrapper .button .icon i {
+        line-height: 40px;
+    }
 
-            .wrapper .button a {
-            line-height: 50px;
-            }
-
- }
+    .wrapper .button a {
+        line-height: 50px;
+    }
+}
