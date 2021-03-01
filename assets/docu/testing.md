@@ -31,10 +31,10 @@ Here is the stories of testing history....
 
 ## About Page
 
-- **Issue:** Having issues with getting the two cards to align/float next to each other.  
+- **Issue:** Having issues with getting the two cards to align/float next to each other. This was something that taken me the longest to fix. 
 
      > **Solution:** I started by trying different things with the code like flexbox, grids 
-     till I know noticed I had added an extra row in the code.
+     till I know noticed I had added an extra row in the code. Just deleting it and all was good. Rookie mistake!
 
      ![sample-added-row](testing-code/added-row.png)
 
@@ -67,7 +67,7 @@ Here is the stories of testing history....
 
      ![sample-webkit](testing-code/webkit.png)
 
-     This is something I will need to come up to and fix.  Thinking I could possible do it will Javascript.
+     This is something I will need to come back to and fix.  Thinking I could possible do it will Javascript.
 
      ![sample-can-I-use](testing-code/can-I-use.png)
 
