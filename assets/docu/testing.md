@@ -72,4 +72,89 @@ Here is the stories of testing history....
      ![sample-can-I-use](testing-code/can-I-use.png)
 
 
-     
+## Padding on Anctor
+
+- **Issue:** Page was not lining up with each section when using the navbar controls.  
+
+     > **Solution:** Was to add padding to each section with the use of [Bootstrap](https://getbootstrap.com/docs/5.0/utilities/spacing/#notation)
+     and CSS to fix the problem.
+
+     e.g.
+
+     ![sample-padding](testing-code/padding.png)
+
+
+## i-frame
+
+- **Issue:** Was slowing down the web loading time and also need to change the code in HTML (3rd party) to CSS
+
+     > **Solution:** Remove the unwanted code and create a CSS class.
+
+     ![sample-css](testing-code/)
+
+
+# Testing on devices
+
+Testing was done on different elements to see how the site preform and the responsiveness of the site.
+
+Browsers:
+
+- Chrome, Firefox and Safari.
+
+Devices:
+
+- Mac (Macbook), Ipad and Iphone 11 and using developer tools in Chrome: (Moto G4, Galaxy S5, Pixel 2, iPad Pro,
+Surface Duo).
+
+### Responsive on devices.
+
+With the responsive being veiw through different device and different screen sizes. Change had to be made.
+
+- **Issue:**
+> - toggle button.
+> - call button on Navbar.
+> - navbar brand name, font-size change.
+> - changing from three cards to two cards on the service section (iPad).
+> - profile photo in the about section.
+> - about section heading 1, font-size change.
+> - social media links in footer section.
+> - jumbotron on landing page.
+> - some padding and margin changed to help with alignment and look on smaller screen.
+
+
+# Accesibility
+
+Wave Report showed the following issues:
+
+![sample-wave](testing-code/wave.png)
+
+Click here to [view](testing-code/wave.jpg)
+
+
+# Google lighthouse
+
+Lighthouse report showed the folloing issues:
+
+![sample-lighthouse](testing-code/lighthouse1.png)
+
+### To improve the rating scores
+
+#### Performance
+
+- 
+
+
+# HTML & CSS Validation
+
+Using W3C CSS validation service I paste the URL and 18 errors and lot of warnings.
+When looking at the code all errors and warnings are from bootstrap issues.
+
+![sample-w3c](testing-code/w3c-css-1.png)
+
+I them paste the whole of my CSS code from the project and end up with no errors and 1 warnings.
+
+![sample-w3c](testing-code/w3c-css-2.png)
+
+The one warnings is about transition kits uses to help fix the social media links in the footer.
+
+![sample-warnings](testing-code/w3c-css-warnings.png)
