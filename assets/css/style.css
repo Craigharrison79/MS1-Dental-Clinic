@@ -136,7 +136,8 @@ footer {
     font-size: 2.5em;
     text-align: center;
     padding-bottom: 1em;
-    color: rgba(29,161,250);
+    /*color: rgba(29,161,250);*/
+    color: rgb(70, 68, 68);
 }
 
 #our-services h4 {
@@ -174,7 +175,8 @@ footer {
     text-align: center;
     padding-top: 2em;
     padding-bottom: 3em;
-    color: white;
+    /*color: white;*/
+    color: rgb(70, 68, 68);
 }
 
 
@@ -247,7 +249,8 @@ footer {
     padding: 0.5em 0;
     font-weight: 500;
     font-size: 2.5em;
-    color: rgba(29,161,250);
+    /*color: rgba(29,161,250);*/
+    color: rgb(70, 68, 68);
 }
 
 #clinic h4 {
@@ -265,7 +268,8 @@ footer {
     padding: 0.5em 0;
     font-weight: 500;
     font-size: 2.5em;
-    color: rgba(29,161,250);
+    /*color: rgba(29,161,250);*/
+    color: rgb(70, 68, 68);
     padding-bottom: 1em;
 }
 
@@ -325,7 +329,8 @@ footer {
     text-align: center;
     padding-top: 1em;
     padding-bottom: 1em;
-    color: white;
+    /*color: white;*/
+    color: rgb(70, 68, 68);
 }
 
 .address-info {
@@ -334,12 +339,14 @@ footer {
 }
 
 .address-info h4 {
-    color: white;
+    /*color: white;*/
+    color: rgb(70, 68, 68);
 }
 
 .address-info h5 {
     line-height: 2em;
-    color: white;
+    /*color: white;*/
+    color: rgb(70, 68, 68);
 }
 
 .fa-map-marker-alt {
@@ -411,6 +418,10 @@ footer p {
 }
 
 /*-- Model --*/
+
+#legend-text {
+    font-size: 1em;
+}
 
 #check-center {
     padding-left: 10px;
