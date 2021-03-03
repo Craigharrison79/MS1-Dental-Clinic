@@ -91,6 +91,14 @@ footer {
     color: white !important;
 }
 
+#nav-phone-btn {
+    color: rgb(70, 68, 68);
+}
+#nav-phone-btn:hover {
+    color: white;
+}
+
+
 /*-- Hero Section --*/
 
 /*-- Credit photo is from istockphoto by piprod --*/
@@ -350,7 +358,7 @@ footer {
 }
 
 .fa-map-marker-alt {
-    color: black;
+    color: rgb(36, 33, 33);
 }
 
 .fas-big {
@@ -490,7 +498,7 @@ footer p {
 }
 
 .wrapper .button:nth-child(2) a{
-    color: #1da1fa;
+    color: #397fad;
 }
 
 .wrapper .button:nth-child(3) a{
@@ -498,7 +506,7 @@ footer p {
 }
 
 .wrapper .button:nth-child(4) a{
-    color: #ff0000;
+    color: #af1212;
 }
 
 /*------------------------------------------------- media screen -------------------------*/
@@ -651,7 +659,7 @@ footer p {
     }
 
     .wrapper .button:nth-child(2):hover .icon {
-        background: #1da1fa;
+        background: #397fad;
     }
 
     .wrapper .button:nth-child(3):hover .icon {
@@ -659,7 +667,7 @@ footer p {
     }
 
     .wrapper .button:nth-child(4):focus-visible .icon {
-        background: #ff0000;
+        background: #af1212;
     }
 
     .wrapper .button .icon {
