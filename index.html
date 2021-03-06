@@ -35,10 +35,7 @@
             </ul>
             
 <!-- Call Us BTN -->
-                
-                   <button class="btn btn-sm btn-outline-dark nav-button" id="nav-phone-btn" type="button"><a id="call-us" href="tel:+46723877855">Call Us</a></button>
-                
-        
+                <button class="telephone-btn" onclick="document.location.href = 'tel:+46723877855'">Call Us</button> 
         </div>
     </div>
     </nav>
@@ -51,8 +48,8 @@
                     <div class="col-12 welcome-msg">
                         <h1>Welcome to Design Smile</h1>
                         <h2>Boutique practie in the heart of Malmö</h2>
-                            <button type="button" class="btn btn-dark msg-button"><a href="#contact-form">Book Now</a></button>
-                    </div>
+                            <a class="book-now" href="#contact-form">Book Now</a>
+                        </div>
                 </div>
             </div>
          </div>
@@ -224,7 +221,7 @@
                 <div class="col-12 col-lg-3 text-center times-info">
                     <div>
                         <h3>Opening Times</h3>
-                            <h4>MONDAY: 7 AM - 6.30 PM <br>
+                            <h4 id="timetable">MONDAY: 7 AM - 6.30 PM <br>
                             TUESDAY: 7 AM - 3 PM <br>
                             WEDNESDAY: 7 AM - 6.30 PM <br>
                             THURSDAY: 7 AM - 3 PM <br>
@@ -234,8 +231,8 @@
                     <div class="telephone-info">
                         <h4>Telephone</h4>
                         <p>0733 44 55 66</p>
-                        <a href="tel:+46723877855">
-                            <i class="fas fa-phone-square-alt phonebtn"></i></a>
+                        <p href="tel:+46723877855"></p>
+                            <i class="fas fa-phone-square-alt phonebtn" onclick="document.location.href = 'tel:+46723877855'"></i>
                         <p>Click to all Us!</p>
                     </div>
                 </div>
