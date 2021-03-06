@@ -197,7 +197,7 @@ Some reading about blue: [Meaning of Blue](https://www.sensationalcolor.com/mean
 
 # Testing
 
-Link to file
+Testing process can be read [here](assets/docu/testing.md).
 
 # Deployment
 

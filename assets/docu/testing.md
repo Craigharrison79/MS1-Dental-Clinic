@@ -92,6 +92,8 @@ Here is the stories of testing history....
 
      ![sample-css](testing-code/)
 
+- In the end remove the whole 3rd party code [maps.ie](https://www.maps.ie/creat-google-map/) and embeded google map.  
+
 
 # Testing on devices
 
@@ -163,7 +165,14 @@ The one warnings is about transition kits uses to help fix the social media link
 
 ## W3C Markup HTML Validation
 
+When running the code in W3C HTML, I came across 5 errors see below:
+
 ![W3C Validation First Check](testing-code/w3c-validation-first-check.png)
+
+After fix the errors: 
+
+1. removing the button element and using some code [link here to page](https://stackoverflow.com/questions/23857507/how-to-trigger-a-phone-call-on-button-click-in-a-php-website)
+2. remove google map 3rd party iframe and embed google map.
 
 ![W3C Validation Fix Check](testing-code/w3c-validation-fix-check.png)
 
