@@ -1,4 +1,3 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 `python3 -m http.server`
 
@@ -7,7 +6,7 @@
 For my first milestone project I have to build a static responsive front end website as part of my Diploma Course with the Code Institute.
 I wanted to build a website of a family member who wanted to advertise her business through the Covid-19 times and beyond.
 
-![Design Smile](assets/docu/screen-mockup.png)
+![Design Smile](assets/docu/mock-up.jpg)
 
 [View Live Website Here](https://craigharrison79.github.io/MS1-Dental-Clinic/)
 
@@ -66,11 +65,11 @@ New Customer is then break down into two categories - new to the area or need he
 
 #### New Customer Goals
 
-    Need Help
+Need Help
 
-        - To get hold of someone fast on the phone.
-		- Which service you provide.
-		- Testimonial and show of work.
+    - To get hold of someone fast on the phone.
+	- Which service you provide.
+	- Testimonial and show of work.
 
 	Move to the area
 
@@ -110,10 +109,11 @@ I need to have a readable font of anyone to read. Some thing with clean lines an
 Blue: - represents intelligence, responsibility, trustworthy, dependable.  It’s also relaxing and a peaceful color.  
 Readable information about the color blue meaning:
 
-![Colour Scheme](assets/docu/desingsmile.jpg)
+![Colour Scheme](assets/docu/designsmile.jpg)
 
-[Meaning color blue](https://www.bourncreative.com/meaning-of-the-color-blue/)
-[Meaning of Blue](https://www.sensationalcolor.com/meaning-of-blue/)
+Some reading about blue: [Meaning color blue](https://www.bourncreative.com/meaning-of-the-color-blue/)
+
+Some reading about blue: [Meaning of Blue](https://www.sensationalcolor.com/meaning-of-blue/)
 
 ### Images
 
@@ -164,7 +164,7 @@ Readable information about the color blue meaning:
 - Feature 5: Consult form - have to link with government records and security acts.
 
 
-## Technologies Used
+# Technologies Used
 
 ### Languages
 
@@ -195,11 +195,11 @@ Readable information about the color blue meaning:
 
 - Chrome Development Tools
 
-## Testing
+# Testing
 
 Link to file
 
-## Deployment
+# Deployment
 
 Deployment of the project is on GitHub Pages, this is how I deploy it:
 
@@ -240,7 +240,8 @@ Top right of the page click on the fork button.
 More information on fork repository:
 [Github Information](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
 
-## Acknowledgements
+
+# Acknowledgements
 
 My Wife for letting me build her website.
 Mentor Oluwafemi Medale for his feedback and help.

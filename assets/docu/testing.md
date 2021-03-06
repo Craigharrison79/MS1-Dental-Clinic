@@ -146,6 +146,8 @@ Lighthouse report showed the folloing issues:
 
 # HTML & CSS Validation
 
+## W3C Markup CSS Validation
+
 Using W3C CSS validation service I paste the URL and 18 errors and lot of warnings.
 When looking at the code all errors and warnings are from bootstrap issues.
 
@@ -158,3 +160,11 @@ I them paste the whole of my CSS code from the project and end up with no errors
 The one warnings is about transition kits uses to help fix the social media links in the footer.
 
 ![sample-warnings](testing-code/w3c-css-warnings.png)
+
+## W3C Markup HTML Validation
+
+![W3C Validation First Check](testing-code/w3c-validation-first-check.png)
+
+![W3C Validation Fix Check](testing-code/w3c-validation-fix-check.png)
+
+
