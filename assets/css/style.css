@@ -300,10 +300,6 @@ footer {
     padding-bottom: 1.2em;
 }
 
-.carousel-item {
-    height: 600px;
-}
-
 /*-- Contact Info --*/
 
 #contact {
@@ -561,8 +557,8 @@ footer p {
 
 @media screen and (max-width: 1200px) {
     #about-me img {
-        height: 150px;
-        width: 150px;
+        height: 200px;
+        width: 200px;
         border-radius: 50%;
         position: absolute;
         top: -80px;
@@ -572,12 +568,20 @@ footer p {
 
 @media screen and (max-width: 991px) {
 
+    #about-me h2 {
+        padding-bottom: 1.5em;
+    }
+
     #about-me img {
         top: -60px;    
     }
 
-    .front-box {
+    .profile-box {
         margin-bottom: 3em;
+    }
+
+    .form-card {
+        width: 80%;
     }
 
     .address-info {
@@ -605,9 +609,17 @@ footer p {
         font-size: 2.5rem;
     }
 
+    .card img {
+        height: 50vh;
+    }
+
+    #about-me h2 {
+        padding-bottom: 2em;
+    }
+
     #about-me img {
-        top: -80px;
-        left: 200px;
+        top: -60px;
+        left: 175px;
     }
 }
 
@@ -617,9 +629,13 @@ footer p {
         font-size: 1.6em;
     }
 
+    #about-me h2 {
+        padding-bottom: 3em;
+    }
+
     #about-me img {
         top: -80px;
-        left: 120px;
+        left: 140px;
     }
 
     .welcome-msg {
@@ -675,20 +691,28 @@ footer p {
         font-size: 2em;
     }
 
+    .card img {
+        height: 40vh;
+    }
+
     #about-me h2 {
         padding-left: 10px;
     }
 
     #about-me img {
-        top: -80px;
+        height: 150px;
+        width: 150px;
+        top: -40px;
         left: 90px;
     }
 
     .iphone5se {
         text-align: center;
-        padding-right: 30px;
     }
 
+    .form-card {
+        width: 90%;
+    }
 
  /*------------------------------------------------- Links -------------------------*/
 
