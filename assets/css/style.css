@@ -386,6 +386,7 @@ footer {
 }
 
 footer h2 {
+    text-align: unset;
     color: #1da1fa;
     padding-bottom: 0.5em;
 }
