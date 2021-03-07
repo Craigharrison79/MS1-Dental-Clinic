@@ -221,21 +221,30 @@ Some reading about blue: [Meaning of Blue](https://www.sensationalcolor.com/mean
 
 ### Version Control
 
-- Git
-- GitHub
-- Gitpod
+- Git: Version control from gitpod, save, commits and push code to Github.
+- GitHub: Live site to save code.
+- Gitpod: Local respoitory to read the develop code.
 
 ### Other Programs
 
-- Mockup
-- W3C CSS Validator
-- W3C HTML Checker
-- Pic Resize
-- Lamba Test
-- Am I responsive
-- W3C Spell Checker
+- Mockup: Used to design my wireframes.
+- W3C CSS Validator: Used to check of errors in HTML code.
+- W3C HTML Checker: Used to check of errors in CSS code.
+- Pic Resize: picture resize and crop tool to help resize, crop, compress, add effects to your images, photos, and screenshots.
+- Am I responsive: is a high fidelity responsive design tool for previewing your site across a variety of popular devices.
+- W3C Spell Checker: This tool allows you to check the spelling of a web page.
+- Chrome Development Tools: Web developer tools built directly into the Google Chrome browser. Help developer diagnose problems as they work on project.
+- Responsive viewer: To test your website responsiveness across different devices.
+- Wave Accessibility: helps you make their web content more accessible to different people with disabilities.
+- Google lighthouse: Check your site Performance, Accessibility, Best Pracitces and SEO and give it a rating out of a 100.
 
-- Chrome Development Tools
+### Media
+
+- istockphoto: Photo library website.
+- Pxfuel: Photo library website.
+- Unsplash: Photo library website.
+- Pexels: Photo library website.
+
 
 # Testing
 
@@ -290,7 +299,7 @@ Mentor Oluwafemi Medale for his feedback and help.
 Code Institue for the knowledge you gave me.
 
 Inspiration for website
-www.
+[smileandcompany](https://smileandcompany.com/#top)
 
 Youtube inspiration from Kevin Powell
 
@@ -299,6 +308,10 @@ Youtube inspiration from Kevin Powell
 [maps.ie](https://www.maps.ie/creat-google-map/) map website builder.
 
 [svg-waves](http://www.w3.org/2000/svg) website for svg waves.
+
+Slack Overflow: For helping link the button to make a phone call.
+
+W3School: For helpful reminders 
 
 
 

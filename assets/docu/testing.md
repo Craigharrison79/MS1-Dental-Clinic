@@ -90,10 +90,18 @@ Here is the stories of testing history....
 
      > **Solution:** Remove the unwanted code and create a CSS class.
 
-![sample-css](testing-code/iframe-map.png)
+![sample-iframe](testing-code/iframe-map.png)
 
 - In the end remove the whole 3rd party code [maps.ie](https://www.maps.ie/creat-google-map/) and embeded google map.  
 
+## Call Us button
+
+- **Issue:** Call us button move into the toggle button when on a smaller screen. I want the customers to be able to see
+if straight away.
+
+    > **Solution:** To hide the button from Navbar on smaller screen and making it appear in hero img on smaller screen. Using d-lg-block and d-lg-none.
+
+![sample-phone(testing-code/call-us-btn.png)
 
 # Testing on devices
 
