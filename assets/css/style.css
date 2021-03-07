@@ -78,25 +78,9 @@ footer {
     margin: 0 0.75em;
 }
 
-/*#call-us {
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-#call-us:hover {
-    color: rgba(29,161,250);
-}*/
-
 .nav-link:hover {
     color: white !important;
 }
-/*
-#nav-phone-btn {
-    color: rgb(70, 68, 68);
-}
-#nav-phone-btn:hover {
-    color: white;
-}*/
 
 .telephone-btn {
     background-color: #1da1fa;
@@ -126,13 +110,7 @@ footer {
     margin-top: 20vh;
     margin-left: 2em;  
 }
-/*
-.msg-button {
-    background-color: rgba(29,161,250);
-    color: black;
-    text-decoration: none;
-}
-*/
+
 .book-now {
     background-color: rgba(29,161,250);
     color: black;
