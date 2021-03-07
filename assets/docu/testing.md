@@ -90,7 +90,7 @@ Here is the stories of testing history....
 
      > **Solution:** Remove the unwanted code and create a CSS class.
 
-     ![sample-css](testing-code/)
+![sample-css](testing-code/iframe-map.png)
 
 - In the end remove the whole 3rd party code [maps.ie](https://www.maps.ie/creat-google-map/) and embeded google map.  
 
@@ -132,6 +132,25 @@ Wave Report showed the following issues:
 
 Click here to [view](testing-code/wave.jpg)
 
+> - Fixing the contrast errors by changing the white text to black as well as the call us button.
+> - Going through the index and changing the heading number to decline in the correct order.
+> - Adding missing labels and correct the errors.
+
+![label](testing-code/label.png) 
+
+> - Adding fieldset to the model that was missing.
+> - Fixing the links " suspicious and redundant links". One was the remove the click here text and the other was to remove href that was double up.
+
+![href](testing-code/href.png)
+
+![sample-wave](testing-code/wave2.png)
+
+I was left with one alterts "device dependent event handler from the Javascript I use [link here to page](https://stackoverflow.com/questions/23857507/how-to-trigger-a-phone-call-on-button-click-in-a-php-website)
+as this is Javascript and in the course we not dealt with this yet.  I have to pass on this alert.  This is something I will need to come back to and fix later in the  course.  I try to google some helpful information but couldn't find
+anything that was a simple fix without getting into Javascript.
+
+![alerts](testing-code/alerts-javascript.png)
+
 
 # Google lighthouse
 
@@ -169,10 +188,25 @@ When running the code in W3C HTML, I came across 5 errors see below:
 
 ![W3C Validation First Check](testing-code/w3c-validation-first-check.png)
 
-After fix the errors: 
+### After fix the errors: 
 
 1. removing the button element and using some code [link here to page](https://stackoverflow.com/questions/23857507/how-to-trigger-a-phone-call-on-button-click-in-a-php-website)
-2. remove google map 3rd party iframe and embed google map.
+
+![button](testing-code/call-us.png)
+
+2. removing alt tag from the class hero img tag "Attribute alt not allowed on element div".
+
+![alt map](testing-code/removing-alt.png)
+
+3. removing descendant a tag from element "Element button must not appear as a descendant of the a element".
+
+![button-book](testing-code/book-now.png)
+
+4. remove google map 3rd party iframe and embed google map.
+
+![google maps](testing-code/iframe-map.png)
+
+5. adding field to the form action element.
 
 ![W3C Validation Fix Check](testing-code/w3c-validation-fix-check.png)
 

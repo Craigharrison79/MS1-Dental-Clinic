@@ -63,30 +63,30 @@ A user would split into two main types - Someone  who is looking a dentist and a
 
 New Customer is then break down into two categories - new to the area or need help with an issue.
 
-#### New Customer Goals
+- #### New Customer Goals
 
-Need Help
+- Need Help
 
     - To get hold of someone fast on the phone.
 	- Which service you provide.
 	- Testimonial and show of work.
 
-	Move to the area
+- Move to the area
 
-		- Location of a client (close to home or work).
-		- Which service you provide.
-		- Testimonial and show of work.
-		- Contact point.
-		- How the clinic looks.
+	- Location of a client (close to home or work).
+	- Which service you provide.
+	- Testimonial and show of work.
+	- Contact point.
+	- How the clinic looks.
 
-#### Existing Customer Goals
+- #### Existing Customer Goals
 
-	Need contact information to check appointment or cancel.
-	Find out the address or location (maybe the second visit).
-	Book an appointment
-	Maybe link to any information site eg surgeons or insurance/government protocols on payment.
+	- Need contact information to check appointment or cancel.
+	- Find out the address or location (maybe the second visit).
+	- Book an appointment
+	- Maybe link to any information site eg surgeons or insurance/government protocols on payment.
 
-## Design
+# Design
 
 ### Wireframes
 
@@ -129,53 +129,95 @@ Some reading about blue: [Meaning of Blue](https://www.sensationalcolor.com/mean
 - clinic 4 photo is from Pexels by Daniel Frank [Pevels](https://www.pexels.com/photo/view-of-clinic-305568/)
 - clinic 5 photo is from Pexels by Shvets Anna [Pevels](https://www.pexels.com/photo/green-leaf-potted-plant-2563411/)
 
-## Features
+# Features
 
-#### Current Information
+- #### Current Information
 
-	Covid-19 guidelines and information
+	- Covid-19 guidelines and information.
+        - This will give the customers a clear understand on how to behave when coming to the clinic and hoply making them feel safe when visiting the clinic.
 
-#### Navigation Bar
+- #### Navigation Bar
 
-	Simple to use and easy to understand.  Always top of the page.
+	- Simple to use and easy to understand.  Always top of the page.
+        - With a call button to make it quick and easy to contact the clinic. This is one of the main responsive existing customer will be using the site. To book, cancels or to ask questions.
 
-#### Landing page
+- #### Landing page
 	
-	Welcome
-	Call to action button
+	- Welcome
+        - To begin a brand awareness to the customer and understand who or what it is the customer is looking at.
+	- Call to action button.
+        - To help generate leads and a call to action.  Help the owner increase new clients.
 
-#### Service section
+- #### Service section
 
-	Call to action button
+	- Bring awareness to the services the company provides.
+        - For the customers help them and find if the company fit there needs.
+        - Owner to provide clear and concise information on the services they provide.
 
-#### Footer
+- #### About section
 
-	Social links
-	Contat information
-	Use full information links
+    - Information about the company (herself) and New Patient information.
+        - Customers to help get a feeling for who the company is and what them stand for.
+        - Owner to raise brand awarencess and increase company credentials and professionalism.
+        - To help generate leads and a call to action.  Help the owner increase new clients.
+
+- #### Clinic section
+
+    - To show images of the clinic.
+        - Help customers to get a feeling and professinalism about the place and company.
+        - To show off the standard of the pracitce.
+        - To new customers, familiarize customers to the clinic before they visit.
+
+- #### Contact Us section
+
+    - To show opening times and contact information. One of the most visit page on the website.
+        - Give the customer number of possibility to contact the clinic.
+        - Owner this page can help drive new customer to the clinic.
+        - Help answer question a customer may have like how to contact they and opening times, so customer know when they could contact someone.
+
+- #### Locating section
+
+    - To show the address and location of the company.
+        - Help first customer to find the clinic.
+        - Help potential customer understand if the clinic is in a viable location for them.
+        - Give the owner a easy way to help customer who are lost to find the clinic.
+
+
+- #### Footer
+
+	- Social links.
+        - To increase brand awareness.
+        - Hoply driving new customer to the business.
+	- Contat information
+        - Second place to find the information customer may need.
 
 
 ### Future Features to Implement
 
 - Feature 1: Online Booking
+    - This will help increase business and help take the burden off the staff to take phone calls.
 - Feature 2: Online Payment
+    - Make it easy for customer to payment bill and offer a extra service to them.
 - Feature 3: Online real time help chat
+    - To help customer with any queries and help any one who could have hearing issues.  Increase brand awareness and customers.
 - Feature 4: Video promo - the owner doesn’t have one yet but would love to have one in the future.
+    - Increase brand awareness.
 - Feature 5: Consult form - have to link with government records and security acts.
+    - Help owner to reduce paper work and speeding up the customer interaction and service.  Giving more times to help the customer get the treatment in times.
 
 
 # Technologies Used
 
 ### Languages
 
-- HTML5
-- CSS3
+- HTML5: used to structure the page.
+- CSS3: used to add style and look of the page.
 
 ### Frameworks and Libraries
 
-- Bootstrap 5
-- Font Awesome
-- Google Fonts
+- Bootstrap 5: to help build the layout of the page with the use of the library.
+- Font Awesome: a library full of icons.
+- Google Fonts: a library full of fonts.
 
 ### Version Control
 
