@@ -237,7 +237,7 @@ Some reading about blue: [Meaning of Blue](https://www.sensationalcolor.com/mean
 - Responsive viewer: To test your website responsiveness across different devices.
 - Wave Accessibility: helps you make their web content more accessible to different people with disabilities.
 - Google lighthouse: Check your site Performance, Accessibility, Best Pracitces and SEO and give it a rating out of a 100.
-
+- Shrinkme: use to compress some photos [here](https://shrinkme.app/)
 ### Media
 
 - istockphoto: Photo library website.
