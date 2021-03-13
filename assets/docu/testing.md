@@ -166,12 +166,30 @@ Lighthouse report showed the folloing issues:
 
 ![sample-lighthouse](testing-code/lighthouse1.png)
 
+![sample-lighthouse](testing-code/lighthouse2.png)
+
 ### To improve the rating scores
 
 #### Performance
 
-- 
+- I had to change the aspert ratio on some photos, as well as compressing and changing some photos to webp 
+which help with loading speed.  I could also remove some unused JavaScript to bootstrap but as I not work with JavaScript
+yet in this course, I  could come back and fix this later on.  Also change from a 3rd party for googlemap and use googlemap embed.
+When I first started the project I couldn't get this to work but after using the 3rd party site.  It just work for me, think this
+is because of the css style it give me.
 
+#### Accesibility
+
+- Low-contrast text is difficult or impossible for many users to read. This is on the iframe (googlemap) which I feel is ok. As the
+score is 96, I feel this is fine and don't need to change the look for the website to get a few extra points.
+
+#### Best Practices
+
+- Links to cross-origin destinations are unsafe
+
+#### SEO
+
+- This was at 100%.
 
 # HTML & CSS Validation
 

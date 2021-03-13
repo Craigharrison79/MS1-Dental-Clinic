@@ -294,9 +294,9 @@ More information on fork repository:
 
 # Acknowledgements
 
-My Wife for letting me build her website.
-Mentor Oluwafemi Medale for his feedback and help.
-Code Institue for the knowledge you gave me.
+- My Wife for letting me build her website.
+- Mentor Oluwafemi Medale for his feedback and help.
+- Code Institue for the knowledge you gave me.
 
 Inspiration for website
 [smileandcompany](https://smileandcompany.com/#top)
