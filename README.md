@@ -3,12 +3,11 @@
 
 # [Design Smile](https://craigharrison79.github.io/MS1-Dental-Clinic/)
 
-For my first milestone project I have to build a static responsive front end website as part of my Diploma Course with the Code Institute.
-I wanted to build a website of a family member who wanted to advertise her business through the Covid-19 times and beyond.
+For my first milestone project, I had to build a static responsive front end website as part of my Diploma Course with the Code Institute.
+I wanted to build a website of a family member who wanted to advertise her new business through the Covid-19 times and beyond.
+[View Live Website Here](https://craigharrison79.github.io/MS1-Dental-Clinic/)
 
 ![Design Smile](assets/docu/mock-up.jpg)
-
-[View Live Website Here](https://craigharrison79.github.io/MS1-Dental-Clinic/)
 
 ## Table of Content
 
@@ -30,23 +29,28 @@ I wanted to build a website of a family member who wanted to advertise her busin
 - [Deployment](#deployment)
 - [Credits](#credits)
     - [Acknowlegements](#acknowlegements)
+    - [Inspiration from website](#Inspiration-for-website)
     - [Code](#code)
-    - [Media](#media)
+    
 
 # UX
 
 ## Strategy
 
-I sat down with the business owner and talk about her ideas of the website and the information to be display on the site.  This information is below in the goal section.  
-Then I put myself in the potential customer view and wrote down a list of thing I would be looking for on visiting a dentist website.  I also ask a few friend and work
-colleagues on there input as potential customer, again information list below.  With all this information I start to work on some different wireframes on paper.
+Frist I sat down with the business owner and talk about her ideas of what the website is and the information to be display on it and how it should look.  
+
+This information is below in the [goal](#goals) section.  
+
+Then I put myself in the position of a potential customer and wrote down a list of thing I would be looking/searching for when visiting a dentist website.  
+I also ask a few friends and work colleagues on there input as potential customer, again information list below.  With all this information I start to work 
+on some different [wireframes](#wireframes) on paper.
 
 ## Goals
 
 ### Owner Stories:
 
-The owner want a clean and easy to read website that is useable of young and old clients. She feel the colour pattern should be a shadow of blue as this represent the heath 
-service community best. See colour scheme for more details.
+The owner wanted a clean and easy to read website that is useable for young and older clients. She feels it's best to use a colour pattern of different shade of 
+blue's as this represent the heath service community best. See [colour](#color-scheme) scheme for more details.
 
 #### Owner Goals:
 
@@ -59,31 +63,35 @@ Pervert a way of potential and old client contact her.
 
 ### User Stories:
 
-A user would split into two main types - Someone  who is looking a dentist and an existincustomer.  
+A user would split into two main types: 
 
-New Customer is then break down into two categories - new to the area or need help with an issue.
+- Someone who is looking for a dentist.
+    - New Customer is then break down into a far  two more categories: 
+        - New to the area.
+        - Needs help with an issue.
+- Existing customer. 
 
 - #### New Customer Goals
 
-- Need Help
+- Needs Help?
 
     - To get hold of someone fast on the phone.
-	- Which service you provide.
-	- Testimonial and show of work.
+	- Which service they provide.
+	- Testimonial and show of work. (Which at the time of building the site the owner doesn't have permit to view on the site.)
 
 - Move to the area
 
 	- Location of a client (close to home or work).
-	- Which service you provide.
-	- Testimonial and show of work.
+	- Which service they provide.
+	- Testimonial and show of work. (Which at the time of building the site the owner doesn't have permit to view on the site.)
 	- Contact point.
-	- How the clinic looks.
+	- The look of the clinic.
 
 - #### Existing Customer Goals
 
-	- Need contact information to check appointment or cancel.
-	- Find out the address or location (maybe the second visit).
-	- Book an appointment
+	- Need contact information to check appointment or cancelltion.
+	- Find out the address or location (maybe it's a second visit).
+	- Book an appointment.
 	- Maybe link to any information site eg surgeons or insurance/government protocols on payment.
 
 # Design
@@ -101,23 +109,26 @@ Or
 
 ### Typography
 
-I need to have a readable font of anyone to read. Some thing with clean lines and open and not to forcefully.  I pick ‘Roboto’ for my headings and then ‘Poppins’ of everything else.  Both have nice flowing lines and go well together.   I using Google Fonts (Link)
-[Google Fonts](https://fonts.google.com/)
+I need to have a readable font that was easy for anyone to read. A font with clean lines and open and not to forcefully.  I pick ‘Roboto’ for my headings and 
+then ‘Poppins’ of everything else.  Both have nice flowing lines and go well together.   I using [Google Fonts](https://fonts.google.com/)
 
 ### Color Scheme
 
-Blue: - represents intelligence, responsibility, trustworthy, dependable.  It’s also relaxing and a peaceful color.  
+Blue: - represents intelligence, responsibility, trustworthy, dependable.  It’s also a relaxing and a peaceful color.
+
 Readable information about the color blue meaning:
 
+- [Meaning color blue](https://www.bourncreative.com/meaning-of-the-color-blue/)
+
+- [Meaning of Blue](https://www.sensationalcolor.com/meaning-of-blue/)
+
 ![Colour Scheme](assets/docu/designsmile.jpg)
-
-Some reading about blue: [Meaning color blue](https://www.bourncreative.com/meaning-of-the-color-blue/)
-
-Some reading about blue: [Meaning of Blue](https://www.sensationalcolor.com/meaning-of-blue/)
 
 ### Images
 
 - Landing photo is from istockphoto by piprod [iStockphoto](https://www.istockphoto.com/se/foto/leende-kvinna-p%C3%A5-40-%C3%A5r-gm977601820-265789058)
+    - I wanted to find a photo of someone smile in a relax position.  Something that is a clean image and is offset to the right so I could display the welcome message
+next to it with easy.
 
 - service 1 photo is from Pxfuel by unknown [Pxfuel](https://www.pxfuel.com/en/free-photo-qhvsm)
 - service 2 photo is from Unsplash by Jonathan Borba [Unsplash](https://unsplash.com/photos/W9YEY6G8LVM)
@@ -128,6 +139,7 @@ Some reading about blue: [Meaning of Blue](https://www.sensationalcolor.com/mean
 - clinic 3 photo is from Pexels by Daniel Frank [Pevels](https://www.pexels.com/photo/chairs-arranged-on-table-305564/)
 - clinic 4 photo is from Pexels by Daniel Frank [Pevels](https://www.pexels.com/photo/view-of-clinic-305568/)
 - clinic 5 photo is from Pexels by Shvets Anna [Pevels](https://www.pexels.com/photo/green-leaf-potted-plant-2563411/)
+    - At this time the clinic is being build so we have no photos as of yet.  I use the photos above to be place holders for the time being.
 
 # Features
 
@@ -139,7 +151,8 @@ Some reading about blue: [Meaning of Blue](https://www.sensationalcolor.com/mean
 - #### Navigation Bar
 
 	- Simple to use and easy to understand.  Always top of the page.
-        - With a call button to make it quick and easy to contact the clinic. This is one of the main responsive existing customer will be using the site. To book, cancels or to ask questions.
+        - With a call button to make it quick and easy to contact the clinic. This is one of the main responsive existing customer will be using the site for. 
+        To book, cancels or to ask questions. So a fast way to find a way of calling the clinic is key.
 
 - #### Landing page
 	
@@ -291,17 +304,22 @@ Top right of the page click on the fork button.
 More information on fork repository:
 [Github Information](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
 
+# Credits
 
-# Acknowledgements
+## Acknowledgements
 
-- My Wife for letting me build her website.
-- Mentor Oluwafemi Medale for his feedback and help.
-- Code Institue for the knowledge you gave me.
+- My Wife: for letting me build her website.
+- Mentor: Oluwafemi Medale for his feedback and help.
+- Code Institue: for the knowledge you gave me.
+- W3School: For helpful reminders.
+- Kevin Powell: inspiration and knowledge.
 
-Inspiration for website
-[smileandcompany](https://smileandcompany.com/#top)
 
-Youtube inspiration from Kevin Powell
+## Inspiration for website
+
+- [smileandcompany](https://smileandcompany.com/#top)
+
+## Code
 
 [CodingNepal](https://www.codingnepalweb.com/2020/07/awesome-social-media-buttons-with-hover-animation.html) social media buttons.  
 
@@ -310,8 +328,6 @@ Youtube inspiration from Kevin Powell
 [svg-waves](http://www.w3.org/2000/svg) website for svg waves.
 
 Slack Overflow: For helping link the button to make a phone call.
-
-W3School: For helpful reminders 
 
 
 
