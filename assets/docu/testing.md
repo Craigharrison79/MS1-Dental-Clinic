@@ -9,39 +9,39 @@ Here is the stories of testing history....
 - **Issue:** Toggle button is not opening when click on.
 
     > **Solution:** I must of accidentally deleted part of the code when copying it for [Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/).
-    I just read through and debug the code.
+    I just read through and debug the code.  I referenced bootstrap to analyze the difference between the code.
 
     ![sample-code-toggle-buttom](testing-code/toggle-btn.png)
 
 
 - **Issue:** Toggle button moving over to the left side on smaller screen size.
 
-     > **Solution:** To change you branding size on different screen sizes.
+     > **Solution:** To change you branding size on different screen sizes.  Reducing the size helped the toggle button to sit on the right side of the screen.
 
      ![sample-branding-name](testing-code/branding-name.png)
 
 ## Landing Page
 
-- **Issue:** Brand and massage covering the hero image face, which was making it harder to see the text.
+- **Issue:** Brand and massage covering the hero image face on smaller screen, which was making it harder to see the text due to the contrast between text and image.
 
-     > **Solution:** To build a jumbotron to help which helped improve readability.
+     > **Solution:** To build a jumbotron to help, this helped improve readability and contrast issues.
 
      ![sample-welcome-msg](testing-code/welcome-msg.png)
 
 
 ## About Page
 
-- **Issue:** Having issues with getting the two cards to align/float next to each other. This was something that taken me the longest to fix. 
+- **Issue:** Having issues with getting the two cards to align/float next to each other. This was something that took me the longest to fix. 
 
-     > **Solution:** I started by trying different things with the code like flexbox, grids 
-     till I know noticed I had added an extra row in the code. Just deleting it and all was good. Rookie mistake!
+     > **Solution:** I started by trying different things with the code like flexbox, grids which didn't make any difference at all.  I end up reading through the code
+     till I know noticed I had added an extra row in the code. Just deleting it and all was good. Rookie mistake I guess!
 
      ![sample-added-row](testing-code/added-row.png)
 
 
-- **Issue:** Lining issues with profile photo and H3 Name.  As the screen change size the photos start to cover up the H3. 
+- **Issue:** Lining issues with profile photo and H3 profile name.  As the screen change size the photos start to cover up the H3. 
 
-     > **Solution:** To write some media quoted to move the photo to the center, top of the card.
+     > **Solution:** To write some media quoted to move the photo to the center, top of the card as the screen size decrease.  
 
      ![sample-profile-photo](testing-code/profile-photo.png)
      ![sample-profile-photo2](testing-code/profile-photo2.png)
@@ -58,23 +58,30 @@ Here is the stories of testing history....
 
 ## Footer social media links
 
-- **Issue:** Social media links - on safari the icons drop out of alignment with hover over.  
+- **Issue:** Social media links - on safari the icons drop out of alignment with hover over. Also on iphone and ipad the is no mouse
+and finger touch wouldn't open the link on be able to click on. 
 
      > **Solution:** This is something I try to fix by myself and serching on the internet. I added some webkits 
      [Stack Overflow](https://stackoverflow.com/questions/21767037/css-transitions-not-working-in-safari) but this didn't help. 
      It was code I found on youtube [CodingNepal](https://www.codingnepalweb.com/2020/07/awesome-social-media-buttons-with-hover-animation.html). 
      I talk to my mentor and he saying it was to do with compatibility with safari.
 
-     ![sample-webkit](testing-code/webkit.png)
+    ![sample-webkit](testing-code/webkit.png)
 
-     This is something I will need to come back to and fix.  Thinking I could possible do it will Javascript.
+    This is something I will need to come back to and fix in the future.  Thinking I could possible do it will Javascript.
 
-     ![sample-can-I-use](testing-code/can-I-use.png)
+    ![sample-can-I-use](testing-code/can-I-use.png)
+
+     > **Solution 2:** Was to set a different set of code to switch on when in smaller screen modes.  Remove to more elaborate code for something simpler
+     and easier to use.
+
+     ![sample-can-I-use](testing-code/social-media-2.png)
 
 
 ## Padding on Anctor
 
-- **Issue:** Page was not lining up with each section when using the navbar controls.  
+- **Issue:** Page was not lining up with each section when using the navbar link button. The page would move down but cut off the heading of the section so 
+you didn't know if it was the right section you arrived to. 
 
      > **Solution:** Was to add padding to each section with the use of [Bootstrap](https://getbootstrap.com/docs/5.0/utilities/spacing/#notation)
      and CSS to fix the problem.
@@ -86,22 +93,26 @@ Here is the stories of testing history....
 
 ## i-frame
 
-- **Issue:** Was slowing down the web loading time and also need to change the code in HTML (3rd party) to CSS
+- **Issue:** Was slowing down the web loading time and also need to change the code in HTML (3rd party) to CSS as it was writen in the HTML code.
 
-     > **Solution:** Remove the unwanted code and create a CSS class.
+     > **Solution:** Remove the unwanted parts of the code and create a CSS class.  Transferring the code into  the style sheet.
 
-![sample-iframe](testing-code/iframe-map.png)
+    ![sample-iframe](testing-code/iframe-map.png)
 
-- In the end remove the whole 3rd party code [maps.ie](https://www.maps.ie/creat-google-map/) and embeded google map.  
+- In the end! I just remove the whole 3rd party code [maps.ie](https://www.maps.ie/creat-google-map/) and embeded google map. Which the first time I try to
+embed google map the link was not  working.  Map was not sizing right even after using CSS to improve the ratio of size.  PLus the map was showing me wrong location.
+But after using the 3rd party google map and then going back to embed google map from goolge, it was working.  I don't 100% know why but I think styling the maps.ie and then
+change back to goolge map made it work.  Wish I could explain this to you in more detail but I can't.
 
 ## Call Us button
 
 - **Issue:** Call us button move into the toggle button when on a smaller screen. I want the customers to be able to see
-if straight away.
+it straight away when the website loading and the customer doesn't have to search for it.
 
-    > **Solution:** To hide the button from Navbar on smaller screen and making it appear in hero img on smaller screen. Using d-lg-block and d-lg-none.
+    > **Solution:** To hide the button in Navbar toggle button on smaller screen and making it appear in hero img on smaller screen. Using d-lg-block and d-lg-none.
+    This work in reverse on bigger screens.
 
-![sample-phone(testing-code/call-us-btn.png)
+![sample-phone](testing-code/call-us-btn2.png)
 
 # Testing on devices
 
@@ -109,7 +120,7 @@ Testing was done on different elements to see how the site preform and the respo
 
 Browsers:
 
-- Chrome, Firefox and Safari.
+- Chrome, Firefox, Safari and Opera.
 
 Devices:
 
@@ -219,6 +230,8 @@ When running the code in W3C HTML, I came across 5 errors see below:
 1. removing the button element and using some code [link here to page](https://stackoverflow.com/questions/23857507/how-to-trigger-a-phone-call-on-button-click-in-a-php-website)
 
 ![button](testing-code/call-us.png)
+
+![button](testing-code/call-us-btn.png)
 
 2. removing alt tag from the class hero img tag "Attribute alt not allowed on element div".
 

@@ -100,12 +100,12 @@ A user would split into two main types:
 
 After finish my drawing on paper, I use mockup [mockflow.com](https://www.mockflow.com/) on design the overall idea.  Link below to the design.
  
-- [Png-desktop-iphone](assets/docu/website-wireframe_Page_1-png)
-- [Png-Ipod](assets/docu/website-wireframe_Page_2-png)
+- [Png-desktop-iphone](assets/docu/website-wireframe_Page_1.png)
+- [Png-Ipod](assets/docu/website-wireframe_Page_2.png)
 
 Or
  
- - [Wireframes Download PDF](https://)
+ - [Wireframes Download PDF](https://github.com/Craigharrison79/MS1-Dental-Clinic/blob/master/assets/docu/website-wireframe.pdf)
 
 ### Typography
 
@@ -318,16 +318,18 @@ More information on fork repository:
 ## Inspiration for website
 
 - [smileandcompany](https://smileandcompany.com/#top)
+- [bridgetowndental](https://www.bridgetowndental.com/)
+- [dentalbrother](https://dentalbrothers.sk/en/)
 
 ## Code
 
 [CodingNepal](https://www.codingnepalweb.com/2020/07/awesome-social-media-buttons-with-hover-animation.html) social media buttons.  
 
-[maps.ie](https://www.maps.ie/creat-google-map/) map website builder.
+[maps.ie](https://www.maps.ie/creat-google-map/) map website builder.  I end up not using this code!
 
 [svg-waves](http://www.w3.org/2000/svg) website for svg waves.
 
-Slack Overflow: For helping link the button to make a phone call.
+Slack Overflow: For helping link the button to make a phone call. [link here](https://stackoverflow.com/questions/23857507/how-to-trigger-a-phone-call-on-button-click-in-a-php-website)
 
 
 
