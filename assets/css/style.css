@@ -515,6 +515,11 @@ footer p {
 /*------------------------------------------------- media screen -------------------------*/
 
 @media screen and (max-width: 1200px) {
+
+    .card img {
+        height: 20vh;
+    }
+
     #about-me img {
         height: 200px;
         width: 200px;
@@ -536,6 +541,10 @@ footer p {
     color: rgba(29,161,250);
     border: black 2px solid;
     padding: 3px 8px;
+    }
+
+    .card img {
+        height: 30vh;
     }
 
     #about-me h2 {
@@ -560,7 +569,6 @@ footer p {
     line-height: 2em;
     }
 }
-
 
 @media screen and (max-width: 590px) {
 
@@ -651,6 +659,37 @@ footer p {
     }
  }
 
+@media screen and (max-width: 414px) {
+    
+    .welcome-msg {
+        margin-top: 10vh;
+    }
+
+    .card img {
+        height: 40vh;
+    }
+
+    #about-me img {
+        top: -60px;
+        left: 110px;
+    }
+
+    #about-me h2 {
+        padding-bottom: 2em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .hero-img {
+        height: 95vh;
+    }
+
+    #about-me img {
+        top: -60px;
+        left: 80px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     
     .brand-name {
@@ -682,6 +721,18 @@ footer p {
 
     .form-card {
         width: 90%;
+    }
+
+    @media screen and (max-width: 290px) {
+
+        #about-me img {
+        top: -60px;
+        left: 70px;
+        }
+
+        .brand-name {
+            font-size: 1em;
+        }
     }
 
  /*------------------------------------------------- Links -------------------------*/
