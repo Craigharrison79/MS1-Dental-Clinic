@@ -16,6 +16,9 @@
 svg {
     vertical-align: baseline;
     border: hidden;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
 }
 
 h2 {
