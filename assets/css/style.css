@@ -573,6 +573,7 @@ footer p {
     }
 }
 
+
 @media screen and (max-width: 590px) {
 
     .welcome-msg {
@@ -679,6 +680,28 @@ footer p {
 
     #about-me h2 {
         padding-bottom: 2em;
+    }
+}
+
+@media screen and (device-width: 731px) and (-webkit-device-pixel-ratio: 2.6) {
+    .hero-img {
+        height: 140vh;
+    }
+
+    .card img {
+        height: 40vh;
+        width: 30vw;
+    }
+}
+
+@media screen and (device-width: 640px) and (-webkit-device-pixel-ratio: 3) {
+    .hero-img {
+        height: 140vh;
+    }
+
+    .card img {
+        height: 40vh;
+        width: 30vw;
     }
 }
 
