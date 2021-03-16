@@ -6,10 +6,10 @@ Here is the stories of testing history....
 
 ## Navigation issues
 
-- **Issue:** Toggle button is not opening when click on.
+- **Issue:** Toggle button is not opening when clicked on.
 
-    > **Solution:** I must of accidentally deleted part of the code when copying it for [Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/).
-    I just read through and debug the code.  I referenced bootstrap to analyze the difference between the code.
+    > **Solution:** I must have accidentally deleted part of the code when copying it for [Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/).
+    I just read through and debuged the code.  I referenced bootstrap to analyze the difference between the codes.
 
     ![sample-code-toggle-buttom](testing-code/toggle-btn.png)
 
@@ -22,7 +22,7 @@ Here is the stories of testing history....
 
 ## Landing Page
 
-- **Issue:** Brand and massage covering the hero image face on smaller screen, which was making it harder to see the text due to the contrast between text and image.
+- **Issue:** Brand and message covering the hero image face on smaller screen, which was making it harder to see the text due to the contrast between text and image.
 
      > **Solution:** To build a jumbotron to help, this helped improve readability and contrast issues.
 
@@ -33,15 +33,15 @@ Here is the stories of testing history....
 
 - **Issue:** Having issues with getting the two cards to align/float next to each other. This was something that took me the longest to fix. 
 
-     > **Solution:** I started by trying different things with the code like flexbox, grids which didn't make any difference at all.  I end up reading through the code
-     till I know noticed I had added an extra row in the code. Just deleting it and all was good. Rookie mistake I guess!
+     > **Solution:** I started by trying different things with the code like flexbox, grids which didn't make any difference at all.  I ended up reading through the code
+     until I noticed I had added an extra row in the code. Just deleting this and all was good. Rookie mistake I guess!
 
      ![sample-added-row](testing-code/added-row.png)
 
 
 - **Issue:** Lining issues with profile photo and H3 profile name.  As the screen change size the photos start to cover up the H3. 
 
-     > **Solution:** To write some media quoted to move the photo to the center, top of the card as the screen size decrease.  
+     > **Solution:** To write some media query to move the photo to the center, top of the card as the screen size decreases.  
 
      ![sample-profile-photo](testing-code/profile-photo.png)
      ![sample-profile-photo2](testing-code/profile-photo2.png)
@@ -49,7 +49,7 @@ Here is the stories of testing history....
 
 ## New Patient (model)
 
-- **Issue:** Align issues with check marks on second model "If uncheck please enter the last time you visit the dentist?".
+- **Issue:** Alignment issues with check marks on second model "If uncheck please enter the last time you visited the dentist?".
 
      > **Solution:** Had to add a little padding in CSS.
 
@@ -61,18 +61,18 @@ Here is the stories of testing history....
 - **Issue:** Social media links - on safari the icons drop out of alignment with hover over. Also on iphone and ipad the is no mouse
 and finger touch wouldn't open the link on be able to click on. 
 
-     > **Solution:** This is something I try to fix by myself and serching on the internet. I added some webkits 
+     > **Solution:** This is something I tried to fix by myself and serching on the internet. I added some webkits 
      [Stack Overflow](https://stackoverflow.com/questions/21767037/css-transitions-not-working-in-safari) but this didn't help. 
-     It was code I found on youtube [CodingNepal](https://www.codingnepalweb.com/2020/07/awesome-social-media-buttons-with-hover-animation.html). 
-     I talk to my mentor and he saying it was to do with compatibility with safari.
+     It was a code I found on youtube [CodingNepal](https://www.codingnepalweb.com/2020/07/awesome-social-media-buttons-with-hover-animation.html). 
+     I talked to my mentor and he said it was to do with compatibility with safari.
 
     ![sample-webkit](testing-code/webkit.png)
 
-    This is something I will need to come back to and fix in the future.  Thinking I could possible do it will Javascript.
+    This is something I will need to come back to and fix in the future.  Thinking I could possible do it with Javascript.
 
     ![sample-can-I-use](testing-code/can-I-use.png)
 
-     > **Solution 2:** Was to set a different set of code to switch on when in smaller screen modes.  Remove to more elaborate code for something simpler
+     > **Solution 2:** Was to set a different set of code to switch on when in smaller screen modes.  Removing the more elaborate code for something simpler
      and easier to use.
 
      ![sample-can-I-use](testing-code/social-media-2.png)
@@ -93,30 +93,30 @@ you didn't know if it was the right section you arrived to.
 
 ## i-frame
 
-- **Issue:** Was slowing down the web loading time and also need to change the code in HTML (3rd party) to CSS as it was writen in the HTML code.
+- **Issue:** This was slowing down the web loading time and also I needed to change the code in HTML (3rd party) to CSS as it was writen in the HTML code.
 
-     > **Solution:** Remove the unwanted parts of the code and create a CSS class.  Transferring the code into  the style sheet.
+     > **Solution:** Remove the unwanted parts of the code and create a CSS class.  Transferring the code into the style sheet.
 
     ![sample-iframe](testing-code/iframe-map.png)
 
-- In the end! I just remove the whole 3rd party code [maps.ie](https://www.maps.ie/creat-google-map/) and embeded google map. Which the first time I try to
-embed google map the link was not  working.  Map was not sizing right even after using CSS to improve the ratio of size.  PLus the map was showing me wrong location.
-But after using the 3rd party google map and then going back to embed google map from goolge, it was working.  I don't 100% know why but I think styling the maps.ie and then
-change back to goolge map made it work.  Wish I could explain this to you in more detail but I can't.
+- In the end, I just removed the whole 3rd party code [maps.ie](https://www.maps.ie/creat-google-map/) and embeded google map. When I first tried to
+embed google map the link was not working.  Map was not sizing right even after using CSS to improve the ratio of size.  Plus the map was showing me the wrong location.
+But after using the 3rd party site I decided to go back to using google map to embed the map, and this time it was working.  I don't know why but I think styling the maps.ie and then
+changing back to goolge map made it work.  I wish I could explain this in more detail but I can't.
 
 ## Call Us button
 
-- **Issue:** Call us button move into the toggle button when on a smaller screen. I want the customers to be able to see
-it straight away when the website loading and the customer doesn't have to search for it.
+- **Issue:** Call us button move into the toggle button when on a smaller screen. I wanted the customers to be able to see
+it straight away when the website loads and the customers doesn't have to search for it.
 
-    > **Solution:** To hide the button in Navbar toggle button on smaller screen and making it appear in hero img on smaller screen. Using d-lg-block and d-lg-none.
-    This work in reverse on bigger screens.
+    > **Solution:** To hide the button in Navbar toggle button on smaller screen and making it appear in hero image on smaller screen. Using d-lg-block and d-lg-none.
+    This works in reverse on bigger screens.
 
 ![sample-phone](testing-code/call-us-btn2.png)
 
 # Testing on devices
 
-Testing was done on different elements to see how the site preform and the responsiveness of the site.
+Testing was done on different elements to see how the site preforms and the responsiveness of the site.
 
 Browsers:
 
@@ -127,9 +127,9 @@ Devices:
 - Mac (Macbook), Ipad and Iphone 11 and using developer tools in Chrome: (Moto G4, Galaxy S5, Pixel 2, iPad Pro,
 Surface Duo).
 
-### Responsive on devices.
+### Responsiveness on devices.
 
-With the responsive being veiw through different device and different screen sizes. Change had to be made.
+With the responsiveness being viewed through different devices and different screen sizes, changes had to be made.
 
 - **Issue:**
 > - toggle button.
@@ -140,7 +140,7 @@ With the responsive being veiw through different device and different screen siz
 > - about section heading 1, font-size change.
 > - social media links in footer section.
 > - jumbotron on landing page.
-> - some padding and margin changed to help with alignment and look on smaller screen.
+> - some padding and margins were changed to help with alignment and the look on smaller screen.
 
 
 # Accesibility
@@ -164,8 +164,8 @@ Click here to [view](testing-code/wave.jpg)
 
 ![sample-wave](testing-code/wave2.png)
 
-I was left with one alterts "device dependent event handler from the Javascript I use [link here to page](https://stackoverflow.com/questions/23857507/how-to-trigger-a-phone-call-on-button-click-in-a-php-website)
-as this is Javascript and in the course we not dealt with this yet.  I have to pass on this alert.  This is something I will need to come back to and fix later in the  course.  I try to google some helpful information but couldn't find
+I was left with one alterts "device dependent event handler from the Javascript". I used the following code. [link here to page](https://stackoverflow.com/questions/23857507/how-to-trigger-a-phone-call-on-button-click-in-a-php-website)
+As this is Javascript and in the course we have not dealt with this yet, I have to pass on this alert.  This is something I will need to come back to and fix later in the course.  I tried to google some helpfully information but couldn't find
 anything that was a simple fix without getting into Javascript.
 
 ![alerts](testing-code/alerts-javascript.png)
@@ -184,9 +184,9 @@ Lighthouse report showed the folloing issues:
 #### Performance
 
 - I had to change the aspert ratio on some photos, as well as compressing and changing some photos to webp 
-which help with loading speed.  I could also remove some unused JavaScript to bootstrap but as I not work with JavaScript
-yet in this course, I  could come back and fix this later on.  Also change from a 3rd party for googlemap and use googlemap embed.
-When I first started the project I couldn't get this to work but after using the 3rd party site.  It just work for me, think this
+which help with loading speed.  I could also remove some unused JavaScript to bootstrap but as I have not worked with JavaScript
+yet in this course, I could come back and fix this later on.  Also change from a 3rd party for googlemap and use googlemap embed.
+When I first started the project I couldn't get this to work but after using the 3rd party site,  It just worked for me. I think this
 is because of the css style it give me.
 
 #### Accesibility
@@ -206,7 +206,7 @@ score is 96, I feel this is fine and don't need to change the look for the websi
 
 ## W3C Markup CSS Validation
 
-Using W3C CSS validation service I paste the URL and 18 errors and lot of warnings.
+Using W3C CSS validation service I pasted the URL and I got 18 errors and lot of warnings.
 When looking at the code all errors and warnings are from bootstrap issues.
 
 ![sample-w3c](testing-code/w3c-css-1.png)
@@ -215,17 +215,17 @@ I them paste the whole of my CSS code from the project and end up with no errors
 
 ![sample-w3c](testing-code/w3c-css-2.png)
 
-The one warnings is about transition kits uses to help fix the social media links in the footer.
+The one of the warnings is about the transition kits use to help me fix the social media links in the footer.
 
 ![sample-warnings](testing-code/w3c-css-warnings.png)
 
 ## W3C Markup HTML Validation
 
-When running the code in W3C HTML, I came across 5 errors see below:
+When running the code in W3C HTML, I came across 5 errors (see below):
 
 ![W3C Validation First Check](testing-code/w3c-validation-first-check.png)
 
-### After fix the errors: 
+### After fixing the errors: 
 
 1. removing the button element and using some code [link here to page](https://stackoverflow.com/questions/23857507/how-to-trigger-a-phone-call-on-button-click-in-a-php-website)
 
