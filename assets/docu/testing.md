@@ -2,7 +2,7 @@
 
 Here is the stories of testing history....
 
-# In the development process, the issues and solution that came up.
+# Bugs issues and solutions
 
 ## Navigation issues
 

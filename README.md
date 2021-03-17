@@ -71,19 +71,19 @@ A user would split into two main types:
 
 - #### New Customer Goals
 
-- Needs Help?
+    - Needs Help?
 
-    - To get hold of someone fast on the phone.
-	- Which service they provide.
-	- Testimonial and show of work. (Which at the time of building the site the owner doesn't have permit to view on the site.)
+        - To get hold of someone fast on the phone.
+	    - Which service they provide.
+	    - Testimonial and show of work. (Which at the time of building the site the owner doesn't have permit to view on the site.)
 
-- Move to the area
+    - Move to the area
 
-	- Location of a client (close to home or work).
-	- Which service they provide.
-	- Testimonial and show of work. (Which at the time of building the site the owner doesn't have permit to view on the site.)
-	- Contact point.
-	- The look of the clinic.
+	    - Location of a client (close to home or work).
+	    - Which service they provide.
+	    - Testimonial and show of work. (Which at the time of building the site the owner doesn't have permit to view on the site.)
+	    - Contact point.
+	    - The look of the clinic.
 
 - #### Existing Customer Goals
 
@@ -219,25 +219,14 @@ next to it easily.
 
 # Technologies Used
 
-### Languages
-
 - HTML5: used to structure the page.
 - CSS3: used to add style and look of the page.
-
-### Frameworks and Libraries
-
 - Bootstrap 5: to help build the layout of the page with the use of the library.
 - Font Awesome: a library full of icons.
 - Google Fonts: a library full of fonts.
-
-### Version Control
-
 - Git: Version control from gitpod, save, commits and push code to Github.
 - GitHub: Live site to save code.
 - Gitpod: Local respoitory to read the develop code.
-
-### Other Programs
-
 - Mockup: Used to design my wireframes.
 - W3C CSS Validator: Used to check of errors in HTML code.
 - W3C HTML Checker: Used to check of errors in CSS code.
