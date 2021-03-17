@@ -1,6 +1,4 @@
 
-`python3 -m http.server`
-
 # [Design Smile](https://craigharrison79.github.io/MS1-Dental-Clinic/)
 
 For my first milestone project, I had to build a static responsive front end website as part of my Diploma Course with the Code Institute.
