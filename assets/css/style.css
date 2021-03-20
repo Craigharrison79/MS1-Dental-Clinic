@@ -270,10 +270,6 @@ footer {
     padding: 0.5em 0; 
 }
 
-#clinic h3 {
-    padding-bottom: 1.2em;
-}
-
 /*-- Contact Info --*/
 
 #contact {
@@ -435,6 +431,10 @@ footer p {
 
 .list-item a {
     color: #fff;
+}
+
+.space-top {
+    padding-top: 40px;
 }
 
 /*-- Model --*/
