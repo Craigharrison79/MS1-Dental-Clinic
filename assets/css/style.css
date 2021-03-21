@@ -643,10 +643,10 @@ footer p {
 /*------------------------------------------------- media screen -------------------------*/
 
 
-@media screen and (min-width: 1400px) and (max-width:1199px) {
+@media screen and (min-width: 1199px) and (max-width:1400px) {
 
     .card img {
-        height: 20vh;
+        height: 40vh;
     }
 
     #about-me img {
@@ -669,7 +669,7 @@ footer p {
 
 }
 
-@media screen and (min-width: 1200px) and (max-width:991px) {
+@media screen and (min-width: 991px) and (max-width: 1200px) {
 
     .gallery-img-wrapper {
     width: 40vw;
