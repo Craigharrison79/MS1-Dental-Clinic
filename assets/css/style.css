@@ -97,6 +97,7 @@ footer {
     border: solid 1px black;
     border-radius: 10px;
     color: black;
+    margin-top: 20px;
 }
 
 .telephone-btn:hover {
@@ -263,11 +264,115 @@ footer {
 
 #clinic {
     text-align: center;
-    padding-bottom: 5em;
+    padding-bottom: 1em;
 }
 
 #clinic h2 {
     padding: 0.5em 0; 
+}
+
+/*-- new part ----*/
+/* -- https://github.com/constantinadrian/Caterpillar_Montessori_MS_1 show to me by mentor --*/
+
+.gallery-title {
+    font-size: 2.5rem;
+}
+
+.gallery-flexbox {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; 
+    -ms-flex-pack: distribute; 
+        justify-content: space-around;   
+    -webkit-box-align: center;   
+        -ms-flex-align: center;   
+            align-items: center;
+}
+
+.gallery-img-wrapper {
+    position: relative;
+    width: 25vw;
+    height: 40vh;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 0.8rem;
+}
+
+.gallery-img-box {
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+.gallery-img-box:hover {
+    -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+         -o-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+/* ------------------ Galery photo -------------- */
+.gallery-img-1 {
+    background: url('../image/clinic4-min.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+.gallery-img-2 {
+    background: url('../image/clinic1-min.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+.gallery-img-3 {
+    background: url('../image/clinic2-min.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+.gallery-img-4 {
+    background: url('../image/clinic3-min.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+.gallery-img-5 {
+    background: url('../image/clinic4-min.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+.gallery-img-6 {
+    background: url('../image/clinic5-min.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 /*-- Contact Info --*/
@@ -522,7 +627,7 @@ footer p {
 
 /*------------------------------------------------- media screen -------------------------*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1400px) and (max-width:1199px) {
 
     .card img {
         height: 20vh;
@@ -540,7 +645,22 @@ footer p {
     #telephone-small {
         margin-top: 1.5em;   
     }
+
+    .gallery-img-wrapper {
+    width: 40vw;
+    height: 30vh;
+    }
+
 }
+
+@media screen and (min-width: 1200px) and (max-width:991px) {
+
+    .gallery-img-wrapper {
+    width: 40vw;
+    height: 30vh;
+    }
+}
+
 
 @media screen and (max-width: 991px) {
 
@@ -571,13 +691,29 @@ footer p {
         width: 80%;
     }
 
+    .gallery-img-wrapper {
+    width: 30vw;
+    height: 30vh;
+    }
+
     .address-info {
     padding-top: 2em;
     margin-bottom: 1.5em;
     line-height: 2em;
     }
+
+    .gap {
+        text-align: center;
+    }
 }
 
+@media only screen and (max-width:768px) {
+
+    .gallery-img-wrapper {
+    width: 40vw;
+    height: 30vh;
+    }
+}
 
 @media screen and (max-width: 590px) {
 
@@ -636,10 +772,6 @@ footer p {
         border-radius: 20px;
     }
 
-    #about-me h2 {
-        padding-bottom: 1em;
-    }
-
     .front-box {
         margin-left: 0;
         margin-top: 3em;   
@@ -666,6 +798,11 @@ footer p {
     .box-space {
         margin-top: 1em;
     }
+
+    .gallery-img-wrapper {
+    width: 80vw;
+    height: 30vh;
+    }
  }
 
 @media screen and (max-width: 414px) {
@@ -685,6 +822,11 @@ footer p {
 
     #about-me h2 {
         padding-bottom: 2em;
+    }
+
+    .gallery-img-wrapper {
+    width: 80vw;
+    height: 50vh;
     }
 }
 
@@ -754,28 +896,32 @@ footer p {
         width: 90%;
     }
 
-     .gallery-img-wrapper {
-    position: relative;
-    width: 80vw;
-    height: 40vh;
-    margin: 20px;
-    overflow: hidden;
-    border-radius: 0.8rem;
+    .gallery-img-wrapper {
+        position: relative;
+        width: 80vw;
+        height: 40vh;
+        margin: 20px;
+        overflow: hidden;
+        border-radius: 0.8rem;
     }
 
 }   
 
-    @media screen and (max-width: 290px) {
+@media screen and (max-width: 290px) {
 
-        #about-me img {
+    #about-me img {
         top: -60px;
         left: 70px;
-        }
+    }
 
-        .brand-name {
-            font-size: 1em;
-        }
+    .brand-name {
+        font-size: 1em;
+    }
 
+    .gallery-img-wrapper {
+        width: 80vw;
+        height: 30vh;
+    }
  /*------------------------------------------------- Links -------------------------*/
 
     .wrapper .button {
@@ -818,109 +964,4 @@ footer p {
     .wrapper .button a {
         line-height: 50px;
     }
-}
-
-
-/*-- new part ----*/
-/* -- https://github.com/constantinadrian/Caterpillar_Montessori_MS_1 show to me by mentor --*/
-
-.gallery-title {
-    font-size: 2.5rem;
-}
-
-.gallery-flexbox {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row; 
-    -ms-flex-pack: distribute; 
-        justify-content: space-around;   
-    -webkit-box-align: center;   
-        -ms-flex-align: center;   
-            align-items: center;
-}
-
-.gallery-img-wrapper {
-    position: relative;
-    width: 25vw;
-    height: 40vh;
-    margin: 20px;
-    overflow: hidden;
-    border-radius: 0.8rem;
-}
-
-.gallery-img-box {
-    position:absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    -webkit-transition: all 0.3s ease-in-out;
-       -moz-transition: all 0.3s ease-in-out;
-        -ms-transition: all 0.3s ease-in-out;
-         -o-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
-}
-
-.gallery-img-box:hover {
-    -webkit-transform: scale(1.1);
-       -moz-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-         -o-transform: scale(1.1);
-            transform: scale(1.1);
-}
-
-/* ------------------ Galery photo -------------- */
-.gallery-img-1 {
-    background: url('../image/clinic4-min.jpg') no-repeat center center scroll;
-    -webkit-background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
-            background-size: cover;
-}
-
-.gallery-img-2 {
-    background: url('../image/clinic1-min.jpg') no-repeat center center scroll;
-    -webkit-background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
-            background-size: cover;
-}
-
-.gallery-img-3 {
-    background: url('../image/clinic2-min.jpg') no-repeat center center scroll;
-    -webkit-background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
-            background-size: cover;
-}
-
-.gallery-img-4 {
-    background: url('../image/clinic3-min.jpg') no-repeat center center scroll;
-    -webkit-background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
-            background-size: cover;
-}
-
-.gallery-img-5 {
-    background: url('../image/clinic4-min.jpg') no-repeat center center scroll;
-    -webkit-background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
-            background-size: cover;
-}
-
-.gallery-img-6 {
-    background: url('../image/clinic5-min.jpg') no-repeat center center scroll;
-    -webkit-background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
-            background-size: cover;
 }
