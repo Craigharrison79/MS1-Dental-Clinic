@@ -97,7 +97,6 @@ footer {
     border: solid 1px black;
     border-radius: 10px;
     color: black;
-    margin-top: 20px;
 }
 
 .telephone-btn:hover {
@@ -149,6 +148,10 @@ footer {
     margin-bottom: 20px;
 }
 
+#telephone-small {
+    margin-top: 20px;
+}
+
 /*-- Services --*/
 
 #our-services {
@@ -194,6 +197,11 @@ footer {
 .wave {
     background-color: rgba(29,161,250);
     border: none;
+}
+
+.wave-fix {
+    transform: translateY(-1px);
+    padding-bottom: 10px;
 }
 
 #about-me h2 {   
@@ -260,11 +268,13 @@ footer {
 .wave-2 {
     background-color: #ecf0f3;
     border: none;
+    transform: translateY(-2px);
 }
 
 #clinic {
     text-align: center;
     padding-bottom: 1em;
+    transform: translateY(-2px);
 }
 
 #clinic h2 {
@@ -445,6 +455,11 @@ footer {
 }
 
 /*-- Address & Map --*/
+
+.wave3 {
+    background-color: rgba(29,161,250);
+    border: none;
+}
 
 #map {
     padding-bottom: 8em;
