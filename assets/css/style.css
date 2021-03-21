@@ -642,6 +642,7 @@ footer p {
 
 /*------------------------------------------------- media screen -------------------------*/
 
+
 @media screen and (min-width: 1400px) and (max-width:1199px) {
 
     .card img {
@@ -675,7 +676,27 @@ footer p {
     height: 30vh;
     }
 }
+/* ipad landscape */
+@media screen and (min-device-width: 1024px) and (orientation: landscape) {
 
+    .gallery-img-wrapper {
+    width: 40vw;
+    height: 50vh;
+    }
+
+    #contact-us {
+        padding-bottom: 40px;
+    }
+ }
+
+/* ipad pro landscape */
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .gallery-img-wrapper {
+    width: 30vw;
+    height: 30vh;
+    }
+}
 
 @media screen and (max-width: 991px) {
 
@@ -722,6 +743,7 @@ footer p {
     }
 }
 
+/* ipad */
 @media only screen and (max-width:768px) {
 
     .gallery-img-wrapper {
@@ -820,6 +842,25 @@ footer p {
     }
  }
 
+/* phones landscape */
+@media screen and (min-device-width: 568px) and (max-device-width: 823px) and (orientation: landscape) {
+
+    .hero-img {
+        height: 140vh;
+    }
+
+    .card img {
+        height: 40vh;
+        width: 30vw;
+    }
+
+    .gallery-img-wrapper {
+    width: 60vw;
+    height: 80vh;
+    }
+}
+
+/* pixel 2, XL and iphone 6/7/8 Plus */
 @media screen and (max-width: 414px) {
     
     .welcome-msg {
@@ -845,28 +886,7 @@ footer p {
     }
 }
 
-@media screen and (device-width: 731px) and (-webkit-device-pixel-ratio: 2.6) {
-    .hero-img {
-        height: 140vh;
-    }
-
-    .card img {
-        height: 40vh;
-        width: 30vw;
-    }
-}
-
-@media screen and (device-width: 640px) and (-webkit-device-pixel-ratio: 3) {
-    .hero-img {
-        height: 140vh;
-    }
-
-    .card img {
-        height: 40vh;
-        width: 30vw;
-    }
-}
-
+/* iphone 6/7/8 and X */
 @media screen and (max-width: 375px) {
     .hero-img {
         height: 95vh;
@@ -878,6 +898,20 @@ footer p {
     }
 }
 
+/* iphone 5/SE landscape*/
+@media screen and (device-width: 568px) and (orientation: landscape) {
+
+    .hero-img {
+        height: 160vh;
+    }
+
+    #about-me img {
+        top: -60px;
+        left: 180px;
+    }
+}
+
+/* iphone 5/SE */
 @media screen and (max-width: 320px) {
     
     .brand-name {
@@ -921,7 +955,7 @@ footer p {
     }
 
 }   
-
+/* Galaxy fold closed */
 @media screen and (max-width: 290px) {
 
     #about-me img {
