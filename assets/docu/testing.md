@@ -36,7 +36,8 @@
 
         - As a first time visitor, I want to find the location of the business.
 
-            1. The user can naviagate using the navbar to the location section and on arrival they are greeted with the map and address.
+            1. The user can naviagate using the navbar to the location section and on arrival they are greeted with the map and address.  The address once again in the footer section
+            at the bottom of the page.
 
     - Returning customer goals:
 
@@ -44,7 +45,18 @@
 
             1. The user can find social media in the footer which allows them to engage and keep them up to date with the going on in the business.
 
-            
+        - As a returning visitor, I want to have a easy way of getting in contact with the business to gain further information about a particular thing.
+
+            1. Like in the first time visitor above, I place a call to action button "Call Us" in the navbar. This give the visitor a quick and easy way to phone the business. But when view on a phone
+            the call to action button will be place below on the hero image and below the welcome message, as it will unviewable due to the toggle menu.  Place the button here still allows the visitor 
+            to see the button once the page has loaded.
+
+            2. Like above the is a call to action button also in the hero image section to allow the visitor the options to email any question they may have.
+
+            3. I also in the footer I left the email address for if someone wanted to send a email via the visitor email account or if the user wanted to take it for future uses.
+
+            4. The user can also use the navbar to location the contact section to leave a message about any question they have.
+
 
 # Bugs issues and solutions
 
