@@ -1,6 +1,50 @@
 # **Testing Dental-Clinic**
 
-Here is the stories of testing history....
+- ## Testing User Experience and Stories (UX)
+
+    - First time visitor goals:
+
+        - As a first time using of the site, I wanted to understand what serivces is on offered, the main purpose of the site and how I can contact someone.  
+
+            1. On visiting the website the customer is greeted with a easy to read website that is clean on the eye. 
+            A simple navbar that is plan and easy to understand with an call to action button "Call Us"  This give the customer
+            a quick and easy way to contact someone without having to search the website.
+
+        
+            2. Just below the navbar is the hero image, welcome message and also with a "Book Now" call to action button.  This call
+            to action button will send the user straight to the contact page.
+
+            3. From entering the site the user is given options to navigate the site one by navbar and two by scroll down. And two ways to 
+            contact someone by one by telephone and one by email.  
+    
+        - As a first time visitor, I wanted the site to be easy to navigate and easy to move, to and from different section.
+
+            1. I design the navbar to be fix to the top of the page so the user always has a recognize spot to navigate from.
+         
+            2. When the user click on any call to action buttons the use will be transport to the relevant section on the page.  If this is to a form then
+            the site will open a "model" which keep the user at the same spot on the site and avoid any confusion about their place on the site.
+         
+            3. Model give a customer two ways to exit.  One to just click on the website page to return to the page or Two a cross at top of the model to click to exit. 
+            This will give the user a clean way to exit and return to the site.
+
+        - As visiting for the first time. I want to get a idea of what services are on offer,  as well as some information about the ower.
+
+            1. As the user scroll down they will arrive on the service section where they in read about the different type of services.  On scrolling further the user will be
+            able to read about the owner.
+
+                1a. On the user reading about the owner they have a call to action book to allow the user to email about becoming a customer.
+
+        - As a first time visitor, I want to find the location of the business.
+
+            1. The user can naviagate using the navbar to the location section and on arrival they are greeted with the map and address.
+
+    - Returning customer goals:
+
+        - As a customer returns, I want to find more information about the business, like how to interact with the business.
+
+            1. The user can find social media in the footer which allows them to engage and keep them up to date with the going on in the business.
+
+            
 
 # Bugs issues and solutions
 
