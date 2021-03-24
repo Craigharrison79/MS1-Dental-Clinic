@@ -646,10 +646,6 @@ footer p {
         margin-top: 1.5em;   
     }
 
-    .gallery-flexbox {
-        justify-content: space-between;
-    }
-
     .gallery-img-wrapper {
         width: 30vw;
         height: 40vh;
