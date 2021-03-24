@@ -338,14 +338,6 @@ footer {
 
 /* ------------------ Galery photo -------------- */
 .gallery-img-1 {
-    background: url('../image/clinic4-min.jpg') no-repeat center center scroll;
-    -webkit-background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
-            background-size: cover;
-}
-
-.gallery-img-2 {
     background: url('../image/clinic1-min.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
        -moz-background-size: cover;
@@ -353,15 +345,15 @@ footer {
             background-size: cover;
 }
 
-.gallery-img-3 {
-    background: url('../image/clinic2-min.jpg') no-repeat center center scroll;
+.gallery-img-2 {
+    background: url('../image/clinic2-min.webp') no-repeat center center scroll;
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
             background-size: cover;
 }
 
-.gallery-img-4 {
+.gallery-img-3 {
     background: url('../image/clinic3-min.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
        -moz-background-size: cover;
@@ -369,15 +361,7 @@ footer {
             background-size: cover;
 }
 
-.gallery-img-5 {
-    background: url('../image/clinic4-min.jpg') no-repeat center center scroll;
-    -webkit-background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
-            background-size: cover;
-}
-
-.gallery-img-6 {
+.gallery-img-4 {
     background: url('../image/clinic5-min.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
        -moz-background-size: cover;
@@ -643,7 +627,7 @@ footer p {
 /*------------------------------------------------- media screen -------------------------*/
 
 
-@media screen and (min-width: 1199px) and (max-width:1400px) {
+@media screen and (min-device-width: 1199px) and (max-width:1400px) {
 
     .card img {
         height: 40vh;
@@ -662,9 +646,13 @@ footer p {
         margin-top: 1.5em;   
     }
 
+    .gallery-flexbox {
+        justify-content: space-between;
+    }
+
     .gallery-img-wrapper {
-    width: 40vw;
-    height: 30vh;
+        width: 30vw;
+        height: 40vh;
     }
 
 }
@@ -672,12 +660,12 @@ footer p {
 @media screen and (min-width: 991px) and (max-width: 1200px) {
 
     .gallery-img-wrapper {
-    width: 40vw;
+    width: 30vw;
     height: 30vh;
     }
 }
 /* ipad landscape */
-@media screen and (min-device-width: 1024px) and (orientation: landscape) {
+@media screen and (min-device-width: 1024px) and (max-width:1199px) and (orientation: landscape) {
 
     .gallery-img-wrapper {
     width: 40vw;
