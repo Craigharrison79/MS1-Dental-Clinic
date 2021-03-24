@@ -371,14 +371,9 @@ footer {
 
 /*-- Contact Info --*/
 
-#contact {
+#contact-us {
     margin-top: 1.2em;
     margin-bottom: 3em;  
-}
-
-#contact h2 {
-    padding: 0.5em 0em;
-    padding-bottom: 1em;
 }
 
 .gap-contact {
