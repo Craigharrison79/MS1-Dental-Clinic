@@ -61,13 +61,8 @@ Pervide a way of potential and old client contacting her.
 
 ### User Stories:
 
-A user would split into two main types: 
-
-- Someone who is looking for a dentist.
-    - New Customer is then broken down into a further two more categories: 
-        - New to the area.
-        - Needs help with an issue.
-- Existing customer. 
+A customer visiting the site is mainly looking for a dentist in the area they live or work in. This could have been  a recommendation by someone
+they know or just from searching on the Internet.
 
 - #### New Customer Goals
 
@@ -91,6 +86,13 @@ A user would split into two main types:
 	- Find out the address or location (maybe it's a second visit).
 	- Book an appointment.
 	- Maybe link to any information site eg surgeons or insurance/government protocols on payment.
+
+## Scope
+
+- Provide a clean and easy looking website for user.
+- Provide simple and easy to follow content that will not overwhelm the user but still deliver the relevant information.
+- Provide all the information for customers to ask questions and to find the location of the clinic.
+- Provide the owner a way of give more interaction and the possibly to convert more people into clients.
 
 # Design
 
@@ -249,7 +251,66 @@ next to it easily.
 
 # Testing
 
-Testing process can be read [here](assets/docu/testing.md).
+## Testing process can be read [here](assets/docu/testing.md).
+
+- ## Testing User Experience and Stories (UX)
+
+    - First time visitor goals:
+
+        - As a first time using of the site, I wanted to understand what serivces is on offered, the main purpose of the site and how I can contact someone.  
+
+            1. On visiting the website the customer is greeted with a easy to read website that is clean on the eye. 
+            A simple navbar that is plan and easy to understand with an call to action button "Call Us"  This give the customer
+            a quick and easy way to contact someone without having to search the website.
+
+        
+            2. Just below the navbar is the hero image, welcome message and also with a "Book Now" call to action button.  This call
+            to action button will send the user straight to the contact page.
+
+            3. From entering the site the user is given options to navigate the site one by navbar and two by scroll down. And two ways to 
+            contact someone by one by telephone and one by email.  
+    
+        - As a first time visitor, I wanted the site to be easy to navigate and easy to move, to and from different section.
+
+            1. I design the navbar to be fix to the top of the page so the user always has a recognize spot to navigate from.
+         
+            2. When the user click on any call to action buttons the use will be transport to the relevant section on the page.  If this is to a form then
+            the site will open a "model" which keep the user at the same spot on the site and avoid any confusion about their place on the site.
+         
+            3. Model give a customer two ways to exit.  One to just click on the website page to return to the page or Two a cross at top of the model to click to exit. 
+            This will give the user a clean way to exit and return to the site.
+
+        - As visiting for the first time. I want to get a idea of what services are on offer,  as well as some information about the ower.
+
+            1. As the user scroll down they will arrive on the service section where they in read about the different type of services.  On scrolling further the user will be
+            able to read about the owner.
+
+                1a. On the user reading about the owner they have a call to action book to allow the user to email about becoming a customer.
+
+        - As a first time visitor, I want to find the location of the business.
+
+            1. The user can naviagate using the navbar to the location section and on arrival they are greeted with the map and address.  The address once again in the footer section
+            at the bottom of the page.
+
+    - Returning customer goals:
+
+        - As a customer returns, I want to find more information about the business, like how to interact with the business.
+
+            1. The user can find social media in the footer which allows them to engage and keep them up to date with the going on in the business.
+
+        - As a returning visitor, I want to have a easy way of get in contact with the business to gain further information about a particular thing.
+
+            1. I place a call to action button "Call Us" in the navbar. This give the visitor a quick and easy way to phone the business. But when viewed on a phone,
+            the call to action button will be place below the hero image and welcome message. As it is unviewable on the on a small screen view due to the toggle menu.  
+            Place the button here still allows the visitor to see the button once the page has loaded.
+
+            2. Like above there is a call to action button also in the hero image section to allow the visitor the options to email any question they may have.
+
+            3. Also in the footer I left the email address for if someone wanted to send a email via a personal email account or if the user wanted to take it for future uses.
+
+            4. The user can also use the navbar to location the contact section to leave a message about any question they have.
+
+
 
 # Deployment
 
@@ -309,17 +370,22 @@ More information on fork repository:
 - [bridgetowndental](https://www.bridgetowndental.com/)
 - [dentalbrother](https://dentalbrothers.sk/en/)
 
+## Inspiration past to me by Mentor
+
+- [Caterpillar Montessori](https://constantinadrian.github.io/Caterpillar_Montessori_MS_1/)
+: Help for photos gallery in clinic section.
+
 ## Code
 
-[CodingNepal](https://www.codingnepalweb.com/2020/07/awesome-social-media-buttons-with-hover-animation.html) social media buttons.  
+[CodingNepal](https://www.codingnepalweb.com/2020/07/awesome-social-media-buttons-with-hover-animation.html) : social media buttons.  
 
-[maps.ie](https://www.maps.ie/creat-google-map/) map website builder.  I end up not using this code!
+[maps.ie](https://www.maps.ie/creat-google-map/) : map website builder.  I end up not using this code!
 
-[svg-waves](http://www.w3.org/2000/svg) website for svg waves.
+[svg-waves](http://www.w3.org/2000/svg) : website for svg waves.
 
 Slack Overflow: For helping link the button to make a phone call. [link here](https://stackoverflow.com/questions/23857507/how-to-trigger-a-phone-call-on-button-click-in-a-php-website)
 
-[Dani Krossing](https://youtu.be/kPtS4vO42II) Help with building and information about 404 page.
+[Dani Krossing](https://youtu.be/kPtS4vO42II) : Help with building and information about 404 page.
 
 
 
