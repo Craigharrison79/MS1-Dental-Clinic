@@ -257,58 +257,61 @@ next to it easily.
 
     - First time visitor goals:
 
-        - As a first time using of the site, I wanted to understand what serivces is on offered, the main purpose of the site and how I can contact someone.  
+        - As a first time user of the site, I want to understand what services is offered, the main purpose of the site and how I can contact someone.  
 
-            1. On visiting the website the customer is greeted with a easy to read website that is clean on the eye. 
-            A simple navbar that is plan and easy to understand with an call to action button "Call Us"  This give the customer
+            1. On visiting the website the customer is greeted with an easy to read website that is clean on the eye. 
+            A simple navbar that is plain and easy to understand with an call to action button "Call Us" .  This gives the customer
             a quick and easy way to contact someone without having to search the website.
 
         
-            2. Just below the navbar is the hero image, welcome message and also with a "Book Now" call to action button.  This call
+            2. Just below the navbar is the hero image, welcome message and also a "Book Now" call to action button.  This call
             to action button will send the user straight to the contact page.
 
-            3. From entering the site the user is given options to navigate the site one by navbar and two by scroll down. And two ways to 
-            contact someone by one by telephone and one by email.  
+            3. From entering the site the user is given options to navigate the site, one by navbar and two by scroll down. And two ways to 
+            contact someone, one by telephone and one by email. 
     
-        - As a first time visitor, I wanted the site to be easy to navigate and easy to move, to and from different section.
+         - As a first time visitor, I wanted the site to be easy to navigate trough and easy to move too and from different sections.
 
-            1. I design the navbar to be fix to the top of the page so the user always has a recognize spot to navigate from.
+            1. I designed the navbar to be fixed to the top of the page so the user always has a recognisable spot to navigate from.
          
-            2. When the user click on any call to action buttons the use will be transport to the relevant section on the page.  If this is to a form then
-            the site will open a "model" which keep the user at the same spot on the site and avoid any confusion about their place on the site.
+            2. When the user clicks on any call to action button the user will be transported to the relevant section on the page.  If this is to a form then
+            the site will open a "model" which keeps the user at the same spot on the site and will thereby avoid any confusion about their place on the site.
          
-            3. Model give a customer two ways to exit.  One to just click on the website page to return to the page or Two a cross at top of the model to click to exit. 
+            3. The Model gives a customer two ways to exit. 
+               - a. To click on the website page to return to the page 
+               - b. To click a cross at top of the model to exit. 
+
             This will give the user a clean way to exit and return to the site.
 
-        - As visiting for the first time. I want to get a idea of what services are on offer,  as well as some information about the ower.
+        - As a first time visitor, I also want to get an idea of what services are on offer,  as well as some information about the owner.
 
-            1. As the user scroll down they will arrive on the service section where they in read about the different type of services.  On scrolling further the user will be
-            able to read about the owner.
+        1. As the user scrolls down he/she will arrive on the service section where he/she can read about the different types of services.  
+            On scrolling further the user will be able to read about the owner.
 
-                1a. On the user reading about the owner they have a call to action book to allow the user to email about becoming a customer.
+            1a. When the user is reading about the owner he/she will have a call to action button to allow the user to email the clinic about becoming a customer.
 
         - As a first time visitor, I want to find the location of the business.
 
-            1. The user can naviagate using the navbar to the location section and on arrival they are greeted with the map and address.  The address once again in the footer section
+            1. The user can navigate using the navbar to the location section and on arrival he/she will be greeted with a map and the address.  The address can also be found in the footer section
             at the bottom of the page.
 
     - Returning customer goals:
 
-        - As a customer returns, I want to find more information about the business, like how to interact with the business.
+        - As a returning customer, I want to find more information about the business, like how to interact with the business.
 
-            1. The user can find social media in the footer which allows them to engage and keep them up to date with the going on in the business.
+            1. The user can find social media in the footer which allows he/she to engage and keep up to date with what is going on in the business.
 
-        - As a returning visitor, I want to have a easy way of get in contact with the business to gain further information about a particular thing.
+        - As a returning visitor, I want to have an easy way of getting in contact with the business to gain further information about a particular thing.
 
-            1. I place a call to action button "Call Us" in the navbar. This give the visitor a quick and easy way to phone the business. But when viewed on a phone,
-            the call to action button will be place below the hero image and welcome message. As it is unviewable on the on a small screen view due to the toggle menu.  
-            Place the button here still allows the visitor to see the button once the page has loaded.
+            1. I have placed a call to action button "Call Us" in the navbar. This gives the visitor a quick and easy way to phone the business. But when viewed on a smartphone,
+            the call to action button will be placed below the hero image and welcome message. This is moved on smaller screens, as the call to action button is unviewable due to the toggle menu.
+            Placing the button here allows the visitor to see the button once the page has loaded.
 
-            2. Like above there is a call to action button also in the hero image section to allow the visitor the options to email any question they may have.
+            2. Like above there is also a call to action button in the hero image section to allow the visitor the option to email regarding any questions he/she may have.
 
-            3. Also in the footer I left the email address for if someone wanted to send a email via a personal email account or if the user wanted to take it for future uses.
+            3. Also in the footer I have left the email address of the business if someone wants to send a email via a personal email account or if the user wants to take it for future use.
 
-            4. The user can also use the navbar to location the contact section to leave a message about any question they have.
+            4. The user can also use the navbar to locate the contact section to leave a message about any question he/she may have.
 
 
 

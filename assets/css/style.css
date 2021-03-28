@@ -110,7 +110,7 @@ footer {
 .hero-img {
     background: url('../image/landing-photo.webp') no-repeat bottom center;
     background-size: cover;
-    height: 85vh;
+    height: 700px;
     overflow: hidden;
 }
 
@@ -824,10 +824,6 @@ footer p {
 /* phones landscape */
 @media screen and (min-device-width: 568px) and (max-device-width: 823px) and (orientation: landscape) {
 
-    .hero-img {
-        height: 140vh;
-    }
-
     .card img {
         height: 40vh;
         width: 30vw;
@@ -867,9 +863,6 @@ footer p {
 
 /* iphone 6/7/8 and X */
 @media screen and (max-width: 375px) {
-    .hero-img {
-        height: 95vh;
-    }
 
     #about-me img {
         top: -60px;
@@ -879,10 +872,6 @@ footer p {
 
 /* iphone 5/SE landscape*/
 @media screen and (device-width: 568px) and (orientation: landscape) {
-
-    .hero-img {
-        height: 160vh;
-    }
 
     #about-me img {
         top: -60px;
